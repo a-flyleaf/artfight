@@ -1,3 +1,6 @@
+---
+layout: none
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,14 +16,27 @@
 </head>
 
 <body>
-	<a href="img/def/middynos.jpg" data-fancybox="defense" data-caption="<a href='https://artfight.net/attack/1768850.la-beast' target='_blank'>by <b>Middynos</b></a> | <a href='https://middynos.deviantart.com/' target='_blank'>deviantArt</a> · <a href='http://crispy-sand-gator.tumblr.com/' target='_blank'>tumblr</a> · <a href='https://twitter.com/Tazumili' target='_blank'>twitter</a> · <a href='https://instagram.com/middynos/' target='_blank'>instagram</a> · <a href='http://toyhou.se/Middynos' target='_blank'>toyhou.se</a>"><img src="img/def/middynos-tn.png" alt="Middynos"/></a>
-	<a href="img/def/middynos.jpg" data-fancybox="defense" data-caption="<a href='https://artfight.net/attack/1768850.la-beast' target='_blank'>by <b>Middynos</b></a> | <a href='https://middynos.deviantart.com/' target='_blank'>deviantArt</a> · <a href='http://crispy-sand-gator.tumblr.com/' target='_blank'>tumblr</a> · <a href='https://twitter.com/Tazumili' target='_blank'>twitter</a> · <a href='https://instagram.com/middynos/' target='_blank'>instagram</a> · <a href='http://toyhou.se/Middynos' target='_blank'>toyhou.se</a>"><img src="img/def/middynos-tn.png" alt="Middynos"/></a>
+	{%include art.html
+		dir="def"
+		artist="Middynos"
+		filetype="jpg"
+		artfight="1768850.la-beast"
+		
+		da="Middynos"
+		fa="FoxHolliday"
+		ws="sjdkd"
+		tb="crispy-sand-gator"
+		tw="Tazumili"
+		ig="Middynos"
+		th="Middynos"
+	%}
 
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-	<!--<script>
+	<script>
 		//this works in the fancyapps playground but not my local machine whyyyy
 		Fancybox.bind("[data-fancybox]", {
-			animated: false
+			animated: false,
+			click: null //because otherwise socmed links are annoying
 		});
 	</script>-->
 </body>

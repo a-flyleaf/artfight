@@ -1,3 +1,4 @@
 -4x4 or x8 (depends on screen width?); 24 attacks, 16 defenses
 -chronological order
 -username+socmed info up to date as of 9/XX, will not be stalked
+-re-exported everything as a (HQ) jpeg, mostly to save storage space; highres versions are onsite

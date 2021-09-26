@@ -55,6 +55,12 @@ p{line-height:150%; margin:.5em 0;}
 .textbox ul{margin:.5em 0 .5em 1.75rem;} .textbox li{margin:.25em 0;}
 
 
+/*INDEX*/
+.home main,.home footer{display:none;}
+.home{font-size:5vw;} .home h1{font-size:4em; font-size:20vw; line-height:100%;} .home header{padding-top:25vh;}
+.home a h1{transition:color 1s,text-shadow .5s;}
+
+
 /*RESPONSIVE*/
 @media only screen and (min-width:600px){
 	.gallery img{width:25%; max-width:210px;}
@@ -62,6 +68,10 @@ p{line-height:150%; margin:.5em 0;}
 	header{width:100%; overflow:auto; padding:0 1rem; max-width:30rem; margin:1.5rem auto;}
 	h1{width:35%; padding-top:.5em;} nav{width:65%; text-align:left; padding-left:.5em;} h1,nav{float:left;}
 	nav li{padding-left:.5em;}
+	
+	.home header{max-width:30rem; font-size:2rem;} .home h1,.home nav{width:100%;}
+	.home h1{padding-top:0; font-size:7rem;}
+	.home nav{text-align:center; padding-left:0; margin-top:1rem;} .home nav li{padding-left:0;}
 }
 
 @media only screen and (min-width:1200px){

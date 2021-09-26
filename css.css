@@ -17,6 +17,7 @@ footer{color:#8a8a8a; font-size:.85em; margin:3rem 0 .5rem; padding:1rem 0;}
 header a,a h1,footer a{transition:color .3s,text-shadow .3s;}
 a h1:hover,a h1:active,footer a:hover,footer a:active{text-shadow:0 0 .15em #bf54e2,0 0 .25em #bf54e2; color:#fff;}
 footer a{font-weight:bold;}
+footer span{display:inline-block;}
 footer li:last-of-type{margin-top:.25em;}
 
 

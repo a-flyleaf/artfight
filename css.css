@@ -1,16 +1,29 @@
-*{margin:0; padding:0; box-sizing:border-box; font-size:100%;}
-body{overflow-x:hidden; background:#111; color:#fff;}
-::selection{background:rgba(0,128,255,.85);}
+/*BASE*/
+*{margin:0; padding:0; box-sizing:border-box; font-size:100%; word-wrap:break-word;}
+body{overflow-x:hidden; background:#111; color:#fff; font-family:'segoe ui',helvetica,arial,sans-serif; font-size:1.25em;}
+::selection{background:rgba(191,84,226,.85);}
 header,main,nav,footer{display:block;}
+#wrap{max-width:1680px; margin:0 auto;}
+a{color:inherit; text-decoration:none;}
 
-.gallery{line-height:0; max-width:840px /*1680 for 8w*/;}
-.gallery img{padding:5px; filter:grayscale(100%); transition:.5s;} .gallery img:hover{filter:grayscale(0%);}
 
-.fancybox__thumbs,.fancybox__button--slideshow,.fancybox__button--fullscreen,.fancybox__button--thumbs{display:none;}
+/*GALLERY*/
+.gallery{line-height:0; max-width:840px /*1680 for 8w*/;} .gallery ::selection{background:#000;}
+.gallery img{padding:5px; filter:grayscale(85%); transition:.5s; opacity:.75;} .gallery img:hover{filter:grayscale(0%); opacity:1;}
+
+.fancybox__thumbs,.fancybox__button--slideshow,.fancybox__button--fullscreen,.fancybox__button--thumbs,.fancybox__counter{display:none;}
+.carousel__button{opacity:.5; transition:.5s;} .carousel__button:hover,.carousel__button:active{opacity:1;}
 .fancybox__toolbar{background:0;}
 .fancybox__backdrop{background:rgba(0,0,0,.85);}
 
-.fancybox__caption{text-align:center;}
+.fancybox__caption{text-align:center; font-size:1rem;}
 .artist{font-size:2em;}
+.linklist{opacity:.75;}
 .socmed::after{content:"·"; padding:0 .25em;} .socmed:last-of-type::after{content:none;}
 .customsite{display:inline} .customsite::before{content:"|"; padding:0 .5em;}
+.fancybox__caption a:hover,.fancybox__caption a:active{text-decoration:underline;}
+
+
+/*TYPOGRAPHY*/
+.textbox{background:#353535; border:1px solid #656565; padding:.35em 1em .55em; /*slightly less top padding because typography*/ max-width:27.5em;}
+p{line-height:150%; margin:.35em 0;} p a{background:#545454; transition:.3s;} p a:hover,p a:focus,p a:active{background:#bf54e2;}

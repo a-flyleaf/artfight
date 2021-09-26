@@ -1,10 +1,21 @@
 /*BASE*/
 *{margin:0; padding:0; box-sizing:border-box; font-size:100%; word-wrap:break-word;}
 body{overflow-x:hidden; background:#111; color:#fff; font-family:'segoe ui',helvetica,arial,sans-serif; font-size:1.25em;}
-::selection{background:rgba(191,84,226,.85);}
+::selection{background:rgba(191,84,226,.85); color:#fff;}
 header,main,nav,footer{display:block;}
 #wrap{max-width:1680px; margin:0 auto;}
-a{color:inherit; text-decoration:none;}
+a{color:inherit; text-decoration:none;} a:hover,a:active{text-decoration:underline;}
+
+
+/*HEADER & FOOTER*/
+header,footer{text-align:center; line-height:150%;} header ul,footer ul{list-style-type:none;}
+header a:hover, header a:active{text-decoration:none;}
+header{margin:1rem 0; color:#c5c5c5;} h1{font-size:1.5em; margin-bottom:.25rem;}
+header li{transition:.5s; padding:.15rem 0;} header li:hover,header li:active,header li:focus{background:#bf54e2; color:#fff;}
+footer{color:#8a8a8a; font-size:.85em; margin-top:1rem; padding:1rem 0;}
+
+header a,a h1,footer a{transition:.3s;}
+a h1:hover,a h1:active,footer a:hover,footer a:active{text-shadow:0 0 .15em #bf54e2,0 0 .25em #bf54e2; color:#fff;}
 
 
 /*GALLERY*/
@@ -21,9 +32,12 @@ a{color:inherit; text-decoration:none;}
 .linklist{opacity:.75;}
 .socmed::after{content:"·"; padding:0 .25em;} .socmed:last-of-type::after{content:none;}
 .customsite{display:inline} .customsite::before{content:"|"; padding:0 .5em;}
-.fancybox__caption a:hover,.fancybox__caption a:active{text-decoration:underline;}
 
 
-/*TYPOGRAPHY*/
+/*CONTENT TYPOGRAPHY*/
+.text main{padding:0 2rem;} .text h2{text-align:left; margin:0;}
+
+h2{font-size:2em; margin-bottom:1rem; margin:0 2rem; line-height:115%;}
+
 .textbox{background:#353535; border:1px solid #656565; padding:.35em 1em .55em; /*slightly less top padding because typography*/ max-width:27.5em;}
-p{line-height:150%; margin:.35em 0;} p a{background:#545454; transition:.3s;} p a:hover,p a:focus,p a:active{background:#bf54e2;}
+p{line-height:150%; margin:.35em 0;} p a{text-shadow:0 .15em .15em #111,0 0 .25em #111; text-decoration:underline dashed; transition:.3s;} p a:hover,p a:focus,p a:active{text-shadow:0 0 .25em #bf54e2;}

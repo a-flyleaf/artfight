@@ -3,6 +3,8 @@ body{overflow-x:hidden; background:#111; color:#fff;}
 ::selection{background:rgba(0,128,255,.85);}
 header,main,nav,footer{display:block;}
 
+.gallery{line-height:0; max-width:840px /*1680 for 8w*/;}
+.gallery img{padding:5px; filter:grayscale(100%); transition:.5s;} .gallery img:hover{filter:grayscale(0%);}
 
 .fancybox__thumbs,.fancybox__button--slideshow,.fancybox__button--fullscreen,.fancybox__button--thumbs{display:none;}
 .fancybox__toolbar{background:0;}

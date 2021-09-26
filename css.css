@@ -12,7 +12,7 @@ header,footer{text-align:center; line-height:150%;} header ul,footer ul{list-sty
 header a:hover, header a:active{text-decoration:none;}
 header{margin:1rem 0; color:#c5c5c5;} h1{font-size:1.5em; margin-bottom:.25rem;}
 header li{transition:.5s; padding:.15rem 0;} header li:hover,header li:active,header li:focus{background:#bf54e2; color:#fff;}
-footer{color:#8a8a8a; font-size:.85em; margin-top:1rem; padding:1rem 0;}
+footer{color:#8a8a8a; font-size:.85em; margin:3rem 0 .5rem; padding:1rem 0;}
 
 header a,a h1,footer a{transition:.3s;}
 a h1:hover,a h1:active,footer a:hover,footer a:active{text-shadow:0 0 .15em #bf54e2,0 0 .25em #bf54e2; color:#fff;}
@@ -35,9 +35,15 @@ a h1:hover,a h1:active,footer a:hover,footer a:active{text-shadow:0 0 .15em #bf5
 
 
 /*CONTENT TYPOGRAPHY*/
-.text main{padding:0 2rem;} .text h2{text-align:left; margin:0;}
+.txt main{padding:0 2rem;} .txt h2{text-align:left; margin:0;}
+.txt h2,.abt h2{font-weight:normal;}
 
-h2{font-size:2em; margin-bottom:1rem; margin:0 2rem; line-height:115%;}
+h2{font-size:2em; margin:0 2rem 1rem; line-height:115%; text-align:center;}
+h3{color:#dcdcdc; font-size:1.5em; margin:.75em 2rem -.25em; max-width:32.5rem;}
+h2+h3{margin-top:0;}
+h3 a{color:#f6f6f6;}
 
-.textbox{background:#353535; border:1px solid #656565; padding:.35em 1em .55em; /*slightly less top padding because typography*/ max-width:27.5em;}
-p{line-height:150%; margin:.35em 0;} p a{text-shadow:0 .15em .15em #111,0 0 .25em #111; text-decoration:underline dashed; transition:.3s;} p a:hover,p a:focus,p a:active{text-shadow:0 0 .25em #bf54e2;}
+.textbox{background:#353535; border:1px solid #656565; padding:.25em 1rem .35em; /*slightly less top padding because typography*/ max-width:35rem; margin:0 1rem;}
+p{line-height:150%; margin:.5em 0;}
+.textbox a{text-shadow:0 .15em .15em #111,0 0 .25em #111; text-decoration:underline dashed; transition:.3s;} .textbox a:hover,.textbox a:focus,.textbox a:active{text-shadow:0 0 .25em #bf54e2;}
+.textbox ul{margin:.5em 0 .5em 1.75rem;} .textbox li{margin:.25em 0;}

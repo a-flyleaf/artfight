@@ -1,6 +1,6 @@
 /*BASE*/
 *{margin:0; padding:0; box-sizing:border-box; font-size:100%; word-wrap:break-word;}
-body{overflow-x:hidden; background:#111; color:#fff; font-family:'segoe ui',helvetica,arial,sans-serif; font-size:1.25em;}
+body{overflow-x:hidden; background:#111; color:#fff; font-family:'segoe ui',helvetica,arial,sans-serif; font-size:1.25em; background:linear-gradient(#bf54e2 -400%,#111 50%,#bf54e2 400%) fixed;}
 ::selection{background:rgba(191,84,226,.85); color:#fff;}
 header,main,nav,footer{display:block;}
 #wrap{max-width:1680px; margin:0 auto;}

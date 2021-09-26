@@ -16,6 +16,7 @@ footer{color:#8a8a8a; font-size:.85em; margin:3rem 0 .5rem; padding:1rem 0;}
 
 header a,a h1,footer a{transition:.3s;}
 a h1:hover,a h1:active,footer a:hover,footer a:active{text-shadow:0 0 .15em #bf54e2,0 0 .25em #bf54e2; color:#fff;}
+footer a{font-weight:bold;}
 
 
 /*GALLERY*/
@@ -37,6 +38,7 @@ a h1:hover,a h1:active,footer a:hover,footer a:active{text-shadow:0 0 .15em #bf5
 /*CONTENT TYPOGRAPHY*/
 .txt main{padding:0 2rem;} .txt h2{text-align:left; margin:0;}
 .txt h2,.abt h2{font-weight:normal;}
+.info{margin:0 2rem 1.25em; text-align:center;} .info span{display:inline-block;}
 
 h2{font-size:2em; margin:0 2rem 1rem; line-height:115%; text-align:center;}
 h3{color:#dcdcdc; font-size:1.5em; margin:.75em 2rem -.25em; max-width:32.5rem;}

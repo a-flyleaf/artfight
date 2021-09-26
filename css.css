@@ -8,4 +8,7 @@ header,main,nav,footer{display:block;}
 .fancybox__toolbar{background:0;}
 .fancybox__backdrop{background:rgba(0,0,0,.85);}
 
+.fancybox__caption{text-align:center;}
+.artist{font-weight:bold; font-size:2em;}
 .socmed::after{content:"·"; padding:0 .25em;} .socmed:last-of-type::after{content:none;}
+.customsite{display:inline} .customsite::before{content:"|"; padding:0 .5em;}

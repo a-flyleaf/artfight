@@ -1,11 +1,19 @@
-· re-exported everything as a (HQ) jpeg, mostly to save storage space; highres versions are onsite
+## sitenotes
+· re-exported all non-transparent defenses as a HQ jpeg; highres versions are onsite (and saved locally)
 · caption links open in new tabs
-· username+socmed info up to date as of 9/25, will not be stalked
+· username+socmed info up to date as of site update, will not be stalked
+	· Y1: 9/25/2021
 · chronological order
-· 4x4 or x8 (depends on screen width?); 24 attacks, 16 defenses
 
-some fun and cool numbers:
-· 16 artists (self included)
-· 40 attacks (24/16)
-· 39 characters (4/35)
-personal battle ratio is the extremely satisfying 60% with 757.75 points \o/ 7 attacks were friendly fire
+· unsure how 2022 will be handled site-nav-wise but it shouuuld be forward-compatible... I like that the attack & defense numbers worked out (4/8), will probably keep those intact regardless
+· separate sub-pages for attacks and defenses could work tbh; the about and homepage are the main ":Tc" points
+· ^ will delete these notes when I figure it out probably
+
+## some fun and cool numbers
+### Y1 2021
+· 24 attacks, 16 defenses
+	· 7 friendly fires (mine)
+· 16 total artists (self included)
+· 40 total attacks (24/16)
+· 39 total characters (4/35)
+· battle ratio: 60%, 757.75

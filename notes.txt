@@ -10,12 +10,20 @@
 · ^ will delete these notes when I figure it out probably
 
 ## some fun and cool numbers
-	side note: points are an absolute crapshoot, between me rating things inconsistently and the point values being adjusted year-to-year anyway. that said I Like Numbers so here they are anyway
+	side note: points are an absolute crapshoot, between me rating things inconsistently and both categories and their point values being adjusted year-to-year. that said I Like Numbers so here they are anyway \o/
 
 ### Y1 2021
-· 24 attacks, 16 defenses
-	· 7 friendly fires (mine)
+· 40 total attacks (24 atk / 16 def)
+	· 7 of my attacks were friendly fires
 · 16 total artists (self included)
-· 40 total attacks (24/16)
-· 39 total characters (4/35)
+· 39 total characters (4 mine / 35 other)
 · battle ratio: 60%, 757.75 points
+
+### Y2 2022
+· 40 total attacks (25 atk / 15 def)
+	· 9 of my attacks were friendly fires
+· ?? total artists (self incldued)
+· ?? total characters (5 mine / ?? other)
+· battle ratio: 62.50%
+
+…actually I should just use a spreadsheet for this :V

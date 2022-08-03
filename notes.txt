@@ -9,6 +9,9 @@
 · separate sub-pages for attacks and defenses could work tbh; the about and homepage are the main ":Tc" points
 · ^ will delete these notes when I figure it out probably
 
+· trying to use yml data to record Everything; instead of separating attacks/defenses the site can use a "if artist = NightAuctor" thing to distinguish *my* art. could make for a fun general chronological overview and such
+· time (https://jekyllrb.com/docs/front-matter/) is *as displayed on ArtFight*; only the year and day really matter but this should help with order
+
 ## some fun and cool numbers
 	side note: points are an absolute crapshoot, between me rating things inconsistently and both categories and their point values being adjusted year-to-year. that said I Like Numbers so here they are anyway \o/
 

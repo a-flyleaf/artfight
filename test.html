@@ -6,7 +6,7 @@ layout: none
 <p>also dw about broken images on the 2021 site, can fix those after</p>
 <p>also also, ignoring revenges right now because It Complicated. can be remedied with typed descriptions maybe</p>
 
-{%for art in site.data.art%}<ul>
+{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}<ul>
 	<li><a href="https://artfight.net/attack/{{art.link}}">ArtFight link</a></li>
 	<li>date: {{art.time|date:"%B %-d, %Y"}}</li>
 	<li>artist: {{art.artist}}</li>

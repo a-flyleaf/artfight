@@ -1,9 +1,9 @@
 ---
 layout: none
 ---
-Links up-to-date as of **August 3, 2022** and, in the interest of not stalking people, **will not be updated** (unless someone returns in a future round).
+Links are up-to-date as of **August 3, 2022**, copied as they appear onsite (including custom site titles). In the interest of not stalking people, these **will not be updated** unless someone EITHER returns in a future round OR requests otherwise by contacting me.
 
-{%assign rtst = site.data.artists|sort_natural:"un"%}{%for artist in rtst%}<ul>
+{%assign rtst = site.data.artists|sort_natural:"un"%}{%for artist in rtst%}<ul id="{{artist.un}}">
 	<li>ArtFight: <a href="https://artfight.net/~{{artist.un}}">{{artist.un}}</a></li>
 	{%if artist.da%}<li>deviantArt: <a href="https://{{artist.da}}.deviantart.com/">{{artist.da}}</a></li>{%endif%}
 	{%if artist.fa%}<li>FurAffinity: <a href="https://www.furaffinity.net/user/{{artist.fa}}">{{artist.fa}}</a></li>{%endif%}

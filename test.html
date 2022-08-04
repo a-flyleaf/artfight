@@ -11,9 +11,10 @@ layout: none
 	<li>date: {{art.time|date:"%B %-d, %Y"}}</li>
 	<li>artist: {{art.artist}}</li>
 	<li>for: {{art.for}}</li>
-	<li>url: <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" alt="art for {{art.for}} by {{art.artist}}"/> <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.png" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/>
+	<li>img: <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" alt="art for {{art.for}} by {{art.artist}}"/> <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.png" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/>
 		<br/>(url to string: {%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%})</li>
 	{%if art.ff%}<li>friendly fire (Team {{art.ff}})</li>{%endif%}
 	<li>points: {{art.pts}}</li>
 	<li>year: {{art.time|date:"%Y"}}</li>
+	{%if art.char%}<li>char: {%for nm in art.char%}{{nm}}{%endfor%}</li>{%endif%}
 </ul>{%endfor%}

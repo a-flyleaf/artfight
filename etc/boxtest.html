@@ -1,0 +1,54 @@
+---
+layout: none
+---
+<!doctype html>
+<html lang="en">
+<head>
+	<title>this is just here for the javascript test</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/> 
+		<style>.fancybox__counter,.fancybox__button--slideshow,.fancybox__button--thumbs,.fancybox__thumbs{display:none;}
+		.fancybox__toolbar{background:0;}
+		.fancybox__slide{padding-bottom:0;}
+		.fancybox__caption{width:100%; text-align:center; padding-bottom:1em;}
+	</style>
+</head><body>
+<h2>fancybox gallery</h2>
+{%for art in site.data.art%}{%if art.for == "paytonsnewheart"%}
+	<a data-fancybox="galleryname" data-caption="art for person" href="{%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}"><img src="{%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/></a>{%endif%}{%endfor%}
+
+<hr/>
+
+<h2>no fancybox</h2>
+<p>modeled loosely after toyhou.se, probably better for accessibility (since the data's not gone to the void if the javascript doesn't load)</p>
+
+{%for art in site.data.art%}{%if art.for == "paytonsnewheart"%}<figure>
+	<a href="{%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}"><img src="{%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/></a>
+	<figcaption>
+		<p>attack is "for {{art.for}}", def is "by {{art.artist}} (ft. {{art.char}})"</p>
+	</figcaption>
+</figure>{%endif%}{%endfor%}
+<p>. . . doesn't look like I can import the artist data |D back to links it is, then...!</p>
+
+<p>&nbsp;</p>
+
+<ul><li>for-me = all defenses, for-you = all attacks; also add pages for each year, which is Everything in chronological order. use border styles to differentiate!
+<ul><li>it's not the most accessible solution unfortunately but i do Not feel like redoing all the data as individual collection files >_>" maybe next year....</li></ul>
+<li>oh well. collections or data, should be able to pull things like characters shown and sorting by artist and such from the yml as-is</li></ul>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+</html>
+
+<!--
+<ul id="artbox">
+	<li><a href="https://artfight.net/attack/{{art.link}}">ArtFight link</a></li>
+	<li>date: {{art.time|date:"%B %-d, %Y"}}</li>
+	<li>artist: <a href="{%include url.html%}/artists#{{art.artist}}">{{art.artist}}</a></li>
+	<li>for: <a href="{%include url.html%}/artists#{{art.for}}">{{art.for}}</a></li>
+	<li><img src="{%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" alt="art for {{art.for}} by {{art.artist}}"/> <img src="{%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/>
+		<br/>(url to string: {%include url.html%}/assets/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%})</li>
+	{%if art.ff%}<li>friendly fire (Team {{art.ff}})</li>{%endif%}
+	<li>points: {{art.pts}}</li>
+	{%if art.char%}<li>character(s): {%for nm in art.char%}{{nm}}{%endfor%}</li>{%endif%}
+</ul>
+-->

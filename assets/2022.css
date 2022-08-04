@@ -1,4 +1,17 @@
+/*https://google-webfonts-helper.herokuapp.com/fonts/noto-sans + https://cssminifier.org/*/
+/*regular*/@font-face{font-family:'Noto Sans';font-style:normal;font-weight:400;src:url('fonts/noto-sans-v27-latin-regular.eot');src:local(''),url('fonts/noto-sans-v27-latin-regular.eot?#iefix') format('embedded-opentype'),url('fonts/noto-sans-v27-latin-regular.woff2') format('woff2'),url('fonts/noto-sans-v27-latin-regular.woff') format('woff'),url('fonts/noto-sans-v27-latin-regular.ttf') format('truetype'),url('fonts/noto-sans-v27-latin-regular.svg#NotoSans') format('svg')}/*italic*/@font-face{font-family:'Noto Sans';font-style:italic;font-weight:400;src:url('fonts/noto-sans-v27-latin-italic.eot');src:local(''),url('fonts/noto-sans-v27-latin-italic.eot?#iefix') format('embedded-opentype'),url('fonts/noto-sans-v27-latin-italic.woff2') format('woff2'),url('fonts/noto-sans-v27-latin-italic.woff') format('woff'),url('fonts/noto-sans-v27-latin-italic.ttf') format('truetype'),url('fonts/noto-sans-v27-latin-italic.svg#NotoSans') format('svg')}/*bold*/@font-face{font-family:'Noto Sans';font-style:normal;font-weight:700;src:url('fonts/noto-sans-v27-latin-700.eot');src:local(''),url('fonts/noto-sans-v27-latin-700.eot?#iefix') format('embedded-opentype'),url('fonts/noto-sans-v27-latin-700.woff2') format('woff2'),url('fonts/noto-sans-v27-latin-700.woff') format('woff'),url('fonts/noto-sans-v27-latin-700.ttf') format('truetype'),url('fonts/noto-sans-v27-latin-700.svg#NotoSans') format('svg')}
+
 *{margin:0; padding:0; box-sizing:border-box; font-size:100%;}
-body{overflow-x:hidden; word-wrap:break-word;}
+body{overflow-x:hidden; word-wrap:break-word; font-family:'noto sans','segoe ui',sans-serif; font-size:1.15em; line-height:1.5;}
 img{max-width:100%; height:auto;}
 header,nav,main,figure,footer{display:block;}
+header,footer,small{font-size:.85em;}
+
+.gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed gray; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
+.gallery a:hover,.gallery a:focus,.gallery a:active{background:lightgray; border-color:#000;}
+.gallery figure{width:50%;}
+@media only screen and (min-width:525px) {.gallery figure{width:30%; margin:0 1%;} .gallery a{width:100%; height:auto;}}
+@media only screen and (min-width:750px) {.gallery figure{margin:0 .75%;} .gallery.four figure{width:23%;} .gallery.five figure{width:18.15%;} .gallery.six figure{width:15%;}}
+@media only screen and (min-width:910px) {.gallery.four figure{width:210px; margin:0 5px;} .gallery.four{max-width:910px;}}
+@media only screen and (min-width:1140px) {.gallery.five figure{width:210px; margin:0 5px;} .gallery.five{max-width:1140px;}}
+@media only screen and (min-width:1330px) {.gallery.six figure{width:210px; margin:0 5px;} .gallery.six{}}

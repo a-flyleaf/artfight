@@ -24,12 +24,25 @@ header ul,footer ul{list-style-type:none;}
 header,footer{text-align:center;}
 header{font-size:1.15em;}
 header a{text-decoration:none; padding:.15em 0; display:block;} header a:hover,header a:focus,header a:active{background:#797979; color:#fff;}
-header span{text-transform:uppercase; letter-spacing:0.025em; word-spacing:0.035em; font-weight:bold; font-size:1em;}
+#home{text-transform:uppercase; letter-spacing:0.025em; word-spacing:0.035em; font-weight:bold; font-size:1em;}
 .artlnk{font-weight:bold;}
 #yrs,#yrs a,#yrs li{display:inline;} #yrs a{padding:0 .5em;}
 
 footer a{text-decoration-color:#797979;} footer a:hover,footer a:active,footer a:focus{color:#fff; text-decoration-color:#c2c2c2;}
 footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
+
+/*screen sizes*/
+@media only screen and (min-width:575px){
+	h1,h2{margin:0 auto;}
+	p{margin:.5em auto;}
+	
+	header,footer{overflow:auto; margin:0 auto;}
+	header{max-width:30rem;}
+	#home,header nav,footer ul,footer p{float:left;}
+	#home{width:30%; margin-left:2.5em;}
+	#home{font-size:1.25em;} header nav{text-align:left; padding-left:1em;}
+	footer{max-width:35rem;} footer ul{width:70%;} footer p{width:25%;}
+}
 
 /*gallery*/
 .gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed gray; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
@@ -37,6 +50,6 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 .gallery figure{width:50%;}
 @media only screen and (min-width:525px) {.gallery figure{width:30%; margin:0 1%;} .gallery a{width:100%; height:auto;}}
 @media only screen and (min-width:750px) {.gallery figure{margin:0 .75%;} .gallery.four figure{width:23%;} .gallery.five figure{width:18.15%;} .gallery.six figure{width:15%;}}
-@media only screen and (min-width:910px) {.gallery.four figure{width:210px; margin:0 5px;} .gallery.four{max-width:910px;}}
+@media only screen and (min-width:910px) {.gallery.four figure{width:210px; margin:0 5px;} .gallery.four{max-width:910px;} .gallery{margin:5px auto;}}
 @media only screen and (min-width:1140px) {.gallery.five figure{width:210px; margin:0 5px;} .gallery.five{max-width:1140px;}}
 @media only screen and (min-width:1330px) {.gallery.six figure{width:210px; margin:0 5px;} .gallery.six{max-width:1330px;}}

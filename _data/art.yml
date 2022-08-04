@@ -15,7 +15,7 @@
   time: 2021-07-03 17:11:35
   artist: NightAuctor
   img: "03"
-  for: SmolAngel
+  for: Nanometer
   pts: 56.5
 - link: 1955449.midnight-rockin
   time: 2021-07-04 11:52:02
@@ -152,3 +152,123 @@
   for: Sweetybeedy
   ff: Cyberpunk
   pts: 21
+- link: 1768850.la-beast
+  time: 2021-07-01 21:42:45
+  artist: Middynos
+  img: "01"
+  for: NightAuctor
+  ff: Cyberpunk
+  pts: 7.75
+  char: sawface
+- link: 2214152.sawfaceee
+  time: 2021-07-10 11:36:09
+  artist: rainclouddoodles
+  img: "02"
+  for: NightAuctor
+  ff: Cyberpunk
+  pts: 1.75
+  char: sawface
+- link: 2293707.sawface
+  time: 2021-07-13 09:14:06
+  artist: Royal-Chimera
+  img: "03"
+  file: jpeg
+  for: NightAuctor
+  pts: 32
+  char: sawface
+- link: 2303550.oh-lawd-it-comin
+  time: 2021-07-13 16:54:20
+  artist: MisterMuse
+  img: "04"
+  for: NightAuctor
+  pts: 49
+  char: entity
+- link: 2347644.zeroooooo
+  time: 2021-07-15 15:16:50
+  artist: rainclouddoodles
+  img: "05"
+  for: NightAuctor
+  ff: Cyberpunk
+  pts: 3.25
+  char: zero
+- link: 2387120.the-engineer-would-like-to-join-your-party
+  time: 2021-07-17 14:26:06
+  artist: Nanometer
+  img: "06"
+  for: NightAuctor
+  pts: 77
+  char: toolbelt
+- link: 2450458.zero
+  time: 2021-07-20 21:25:02
+  artist: limineonal
+  img: "07"
+  for: NightAuctor
+  ff: Cyberpunk
+  pts: 5.75
+  char: zero
+- link: 2492278.toolbelt-kid-0
+  time: 2021-07-23 11:09:02
+  artist: yuckie_dappy
+  img: "08"
+  for: NightAuctor
+  pts: 63
+  char: toolbelt
+- link: 2516199.be-not-afraid
+  time: 2021-07-24 19:58:50
+  artist: Zvarricopter
+  img: "09"
+  for: NightAuctor
+  pts: 49
+  char: entity
+- link: 2518660.emo-entity
+  time: 2021-07-24 22:51:47
+  artist: Atroppa-Nightshade
+  img: "10"
+  for: NightAuctor
+  pts: 22.5
+  char: entity
+- link: 2525852.zero
+  time: 2021-07-25 12:28:19
+  artist: Timothy_stars
+  img: "11"
+  for: NightAuctor
+  pts: 44
+  char: zero
+- link: "2526090.45"
+  time: 2021-07-25 12:46:34
+  artist: Sweetybeedy
+  img: "12"
+  for: NightAuctor
+  pts: 63
+  char: sawface
+- link: 2545626.zero
+  time: 2021-07-26 03:29:26
+  artist: DrMordred
+  img: "13"
+  for: NightAuctor
+  pts: 28
+  char: zero
+- link: 2553219.toolbelt-kid
+  time: 2021-07-26 23:53:14
+  artist: TikkiToon
+  img: "14"
+  for: NightAuctor
+  pts: 84
+  char: toolbelt
+- link: 2585373.teeth-teeth-teeth
+  time: 2021-07-28 20:36:36
+  artist: kiriska
+  img: "15"
+  file: jpg
+  for: NightAuctor
+  ff: Cyberpunk
+  pts: 5.25
+  char: sawface
+- link: 2611056.zero
+  time: 2021-07-30
+  artist: Ribustol
+  img: "16"
+  for: NightAuctor
+  ff: Cyberpunk
+  pts: 7.25
+  char: zero

@@ -1,20 +1,20 @@
 ---
 layout: none
 ---
-<style>img{max-height:100px; width:auto;} ul{display:inline-block; vertical-align:top; border:1px dotted #808080;}</style>
+<style>img{max-height:100px; width:auto;} #artbox{display:inline-block; vertical-align:top; border:1px dotted #808080;}</style>
 <p>have one big page with all the artist links/info? with a note it hasn't been udpated since $date, and won't be moving forward <em>unless</em> they reappear in a given year. artist name links to their header on the page! (would be cool if that can be highlighted somehow)</p>
 <p>also dw about broken images on the 2021 site, can fix those after</p>
 <p>also also, ignoring revenges right now because It Complicated. can be remedied with typed descriptions maybe</p>
+<ul><li>maybe use icons for my own characters? mostly to avoid having to rewrite their names (as in "entity" is fine for url+icon purposes, no need for "the entity") because idk how to work data crossovers, if that's even possible</li></ul>
 
-{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}<ul>
+{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}<ul id="artbox">
 	<li><a href="https://artfight.net/attack/{{art.link}}">ArtFight link</a></li>
 	<li>date: {{art.time|date:"%B %-d, %Y"}}</li>
 	<li>artist: {{art.artist}}</li>
 	<li>for: {{art.for}}</li>
-	<li>img: <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" alt="art for {{art.for}} by {{art.artist}}"/> <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.png" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/>
+	<li><img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" alt="art for {{art.for}} by {{art.artist}}"/> <img src="{%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}x.png" alt="thumbnail of art for {{art.for}} by {{art.artist}}"/>
 		<br/>(url to string: {%include url.html%}/img/{%if art.artist == 'NightAuctor'%}atk/{%else%}def/{%endif%}{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%})</li>
 	{%if art.ff%}<li>friendly fire (Team {{art.ff}})</li>{%endif%}
 	<li>points: {{art.pts}}</li>
-	<li>year: {{art.time|date:"%Y"}}</li>
-	{%if art.char%}<li>char: {%for nm in art.char%}{{nm}}{%endfor%}</li>{%endif%}
+	{%if art.char%}<li>character(s): {%for nm in art.char%}{{nm}}{%endfor%}</li>{%endif%}
 </ul>{%endfor%}

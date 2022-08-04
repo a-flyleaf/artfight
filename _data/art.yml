@@ -265,10 +265,16 @@
   pts: 5.25
   char: sawface
 - link: 2611056.zero
-  time: 2021-07-30
+  time: 2021-07-30 08:58:43
   artist: Ribustol
   img: "16"
   for: NightAuctor
   ff: Cyberpunk
   pts: 7.25
   char: zero
+- link: 2705772.those-four-fellas
+  time: 2022-07-01 17:50:01
+  artist: NightAuctor
+  img: "01"
+  for: yuckie_dappy
+  pts: 145

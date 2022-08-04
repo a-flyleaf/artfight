@@ -7,7 +7,7 @@ layout: none
 <p>also also, ignoring revenges right now because It Complicated. can be remedied with typed descriptions maybe</p>
 <ul><li>maybe use icons for my own characters? mostly to avoid having to rewrite their names (as in "entity" is fine for url+icon purposes, no need for "the entity") because idk how to work data crossovers, if that's even possible</li></ul>
 
-{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}<ul id="artbox">
+{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}<!--/-->{%capture year%}{{art.time|date:"%Y"}}{%endcapture%}<!--https://stackoverflow.com/questions/24179283/get-jekyll-posts-by-year/24182748#24182748-->{%if year == "2022"%}<ul id="artbox">
 	<li><a href="https://artfight.net/attack/{{art.link}}">ArtFight link</a></li>
 	<li>date: {{art.time|date:"%B %-d, %Y"}}</li>
 	<li>artist: {{art.artist}}</li>
@@ -17,4 +17,4 @@ layout: none
 	{%if art.ff%}<li>friendly fire (Team {{art.ff}})</li>{%endif%}
 	<li>points: {{art.pts}}</li>
 	{%if art.char%}<li>character(s): {%for nm in art.char%}{{nm}}{%endfor%}</li>{%endif%}
-</ul>{%endfor%}
+</ul>{%endif%}{%endfor%}

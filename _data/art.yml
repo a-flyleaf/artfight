@@ -438,3 +438,123 @@
   for: paytonsnewheart
   ff: Bloom
   pts: 12.75
+- link: 2808551.revenge
+  time: 2022-07-02 03:32:34
+  artist: TaxiBirds
+  img: "01"
+  for: NightAuctor
+  pts: 40.25
+  char: sawface
+- link: 3226243.zero-bloom-2022
+  time: 2022-07-07 21:40:46
+  artist: rainuu
+  img: "02"
+  for: NightAuctor
+  ff: Bloom
+  pts: 6.5
+  char: zero
+- link: 3260115.sawface
+  time: 2022-07-08 14:44:49
+  artist: poltergeist
+  img: "03"
+  for: NightAuctor
+  pts: 93
+  char: sawface
+- link: 3483893.woof
+  time: 2022-07-13 14:36:45
+  artist: Middynos
+  img: "04"
+  for: NightAuctor
+  pts: 35
+  char: wolfskull
+- link: 3563775.zero
+  time: 2022-07-15 20:14:26
+  artist: TalisM4niac
+  img: "05"
+  file: gif
+  for: NightAuctor
+  pts: 190
+  char: zero
+- link: 3612263.eldritch-noodle-party
+  time: 2022-07-17 12:24:51
+  artist: Rufinator
+  img: "06"
+  file: jpg
+  tn: jpg
+  for: NightAuctor
+  ff: Bloom
+  pts: 7
+  char: sawface
+- link: 3619079.emo-friend
+  time: 2022-07-17 16:12:27
+  artist: Etch-Is-Sketchy
+  img: "07"
+  for: NightAuctor
+  pts: 20
+  char: entity
+- link: 3660853.the
+  time: 2022-07-18 21:47:47
+  artist: PoliStrauu
+  img: "08"
+  file: jpg
+  for: NightAuctor
+  pts: 10
+  char: entity
+- link: 3738817.insert-proper-zelda-sound-effect
+  time: 2022-07-21 14:33:42
+  artist: Flickerhand
+  img: "09"
+  file: gif
+  for: NightAuctor
+  pts: 45
+  char: toolbelt
+- link: 3742833.hand-chicken
+  time: 2022-07-21 16:55:44
+  artist: yonah
+  img: "10"
+  file: jpg
+  for: NightAuctor
+  ff: Bloom
+  pts: 2.5
+  char: entity
+- link: 3776419.scies-en-noir
+  time: 2022-07-22 20:34:57
+  artist: HoarfrostArts
+  img: "11"
+  file: jpeg
+  for: NightAuctor
+  pts: 84.75
+  char: sawface
+- link: 3799220.crawling-through-the-woods
+  time: 2022-07-23 17:17:16
+  artist: mariowser_
+  img: "12"
+  for: NightAuctor
+  ff: Bloom
+  pts: 11
+  char: sawface
+- link: 3943153.mess-of-limbs-and-spikes
+  time: 2022-07-28 19:40:40
+  artist: Xenos6
+  img: "13"
+  for: NightAuctor
+  pts: 35.25
+  char: sawface
+- link: 4008072.the-teeth-lad-please-read-description
+  time: 2022-07-30 22:34:34
+  artist: Sharky1j
+  img: "14"
+  file: gif
+  tn: gif
+  for: NightAuctor
+  ff: Bloom
+  pts: 76
+  char: sawface
+- link: 4058780.im-on-fire
+  time: 2022-08-01 02:02:43
+  artist: prince-sivler
+  img: "15"
+  for: NightAuctor
+  ff: Bloom
+  pts: 15.5
+  char: wolfskull

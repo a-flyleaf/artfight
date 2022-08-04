@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>ArtFight showcase{%if page.title%} | {{page.title}}{%endif%}</title>
-	<link rel="stylesheet" type="text/css" href="{%include url.html%}/assets/2022.css">
+	<link rel="stylesheet" type="text/css" href="{%include url.html%}/assets/2022.css">{%if page.css%}
+	<style>{{page.css}}</style>{%endif%}
 </head><body>
 	<header>
 		<a href="{%include url.html%}" id="home">ArtFight Showcase</a>
@@ -19,12 +20,12 @@
 				<a href="{%include url.html%}/art/2022"><li>2022</li></a></ul></li>
 		</ul></nav>
 	</header>
-	<main>{{content}}</main>
+	<main>{%if page.title%}<h1>{{page.title}}</h1>{%endif%}{{content}}</main>
 	<footer><ul>
 		<li>base site code by <a href="{{site.url}}">a-flyleaf</a>/<a href="https://artfight.net/~NightAuctor">NightAuctor</a></li>
 		<li>galleries use <a href="https://fancyapps.com/docs/ui/fancybox/">fancybox v4</a></li>
 		<li>art and characters belong to those credited</li>
 		<li>font is Noto Sans via <a href="https://google-webfonts-helper.herokuapp.com">google-webfonts-helper</a></li>
-	</ul><p>©&nbsp;2021–2022</p></footer>
+	</ul><p><a href="https://github.com/a-flyleaf/artfight">©&nbsp;2021–2022</a></p></footer>
 </body>
 </html>

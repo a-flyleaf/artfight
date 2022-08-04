@@ -14,10 +14,12 @@ header,footer{color:#c2c2c2;}
 header,footer,h1,h2{padding:1rem;}
 main{background:#fff; padding:0 0 1rem;}
 h1,h2,p{max-width:35rem;}
-h1,h2{padding-bottom:0;}
-h1{font-size:2em; font-weight:normal; text-align:center;}
+h1,h2{padding-bottom:0; text-align:center;}
+h1{font-size:2em; font-weight:normal;}
 h2{font-size:1.5em; color:#5b5b5b;}
 p{margin:.5em 0; padding:0 1rem;}
+
+.box{border:1px solid #e0e0e0; border-radius:.15em; background:#efefef; max-width:40rem; margin:1em auto; padding:.5em;}
 
 /*header+footer*/
 header ul,footer ul{list-style-type:none;}
@@ -28,10 +30,10 @@ header a{text-decoration:none; padding:.15em 0; display:block;} header a:hover,h
 .artlnk{font-weight:bold;}
 #yrs,#yrs a,#yrs li{display:inline;} #yrs a{padding:0 .5em;}
 
-footer a{text-decoration-color:#797979;} footer a:hover,footer a:active,footer a:focus{color:#fff; text-decoration-color:#c2c2c2;}
+footer a{text-decoration-color:#797979;} footer p a{text-decoration:none;} footer a:hover,footer a:active,footer a:focus{color:#fff; text-decoration-color:#c2c2c2;}
 footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 
-/*screen sizes*/
+/*widescreen*/
 @media only screen and (min-width:575px){
 	h1,h2{margin:0 auto;}
 	p{margin:.5em auto;}
@@ -39,14 +41,14 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 	header,footer{overflow:auto; margin:0 auto;}
 	header{max-width:30rem;}
 	#home,header nav,footer ul,footer p{float:left;}
-	#home{width:30%; margin-left:2.5em;}
-	#home{font-size:1.25em;} header nav{text-align:left; padding-left:1em;}
+	#home{width:35%; margin-left:1.75em; padding:.25em .5em;}
+	#home{font-size:1.25em;} header nav{text-align:left;} header li{padding-left:.5em;} #yrs li{padding:0;}
 	footer{max-width:35rem;} footer ul{width:70%;} footer p{width:25%;}
 }
 
 /*gallery*/
-.gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed gray; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
-.gallery a:hover,.gallery a:focus,.gallery a:active{background:lightgray; border-color:#000;}
+.gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed #c2c2c2; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
+.gallery a:hover,.gallery a:focus,.gallery a:active{background:#e0e0e0; border-color:#ababab;}
 .gallery figure{width:50%;}
 @media only screen and (min-width:525px) {.gallery figure{width:30%; margin:0 1%;} .gallery a{width:100%; height:auto;}}
 @media only screen and (min-width:750px) {.gallery figure{margin:0 .75%;} .gallery.four figure{width:23%;} .gallery.five figure{width:18.15%;} .gallery.six figure{width:15%;}}

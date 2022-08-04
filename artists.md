@@ -1,5 +1,6 @@
 ---
-layout: none
+layout: 2022
+title: artist directory
 ---
 Links are up-to-date as of **August 3, 2022**, copied as they appear onsite (including custom site titles). In the interest of not stalking people, these **will not be updated** unless someone EITHER returns in a future round OR requests otherwise by contacting me.
 

@@ -19,6 +19,18 @@ h1{font-size:2em; font-weight:normal; text-align:center;}
 h2{font-size:1.5em; color:#5b5b5b;}
 p{margin:.5em 0; padding:0 1rem;}
 
+/*header+footer*/
+header ul,footer ul{list-style-type:none;}
+header,footer{text-align:center;}
+header{font-size:1.15em;}
+header a{text-decoration:none; padding:.15em 0; display:block;} header a:hover,header a:focus,header a:active{background:#797979; color:#fff;}
+header span{text-transform:uppercase; letter-spacing:0.025em; word-spacing:0.035em; font-weight:bold; font-size:1em;}
+.artlnk{font-weight:bold;}
+#yrs,#yrs a,#yrs li{display:inline;} #yrs a{padding:0 .5em;}
+
+footer a{text-decoration-color:#797979;} footer a:hover,footer a:active,footer a:focus{color:#fff; text-decoration-color:#c2c2c2;}
+footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
+
 /*gallery*/
 .gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed gray; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
 .gallery a:hover,.gallery a:focus,.gallery a:active{background:lightgray; border-color:#000;}

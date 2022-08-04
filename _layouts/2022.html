@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comptaible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>ArtFight showcase{%if page.title%} | {{page.title}}{%endif%}</title>
+	<link rel="stylesheet" type="text/css" href="{%include url.html%}/assets/2022.css">
+</head><body>
+	<header>
+		<a href="{%include url.html%}">ArtFight Showcase</a>
+		<nav><ul>
+			<li>about</li>
+			<li>art for me</li>
+			<li>art for you</li>
+			<li>by year:
+				<ul><li>2021</li>
+				<li>2022</li></ul></li>
+		</ul></nav>
+	</header>
+	<main>{{page.content}}</main>
+	<footer>
+		<p>base site code by <a href="{{site.url}}">a-flyleaf</a>/<a href="https://artfight.net/~NightAuctor">NightAuctor</a>; galleries use <a href="https://fancyapps.com/docs/ui/fancybox/">fancybox v4</a></p>
+		<p>art and characters belong to those credited</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+*{margin:0; padding:0; box-sizing:border-box; font-size:100%;}
+body{overflow-x:hidden; word-wrap:break-word;}
+img{max-width:100%; height:auto;}
+header,nav,main,figure,footer{display:block;}

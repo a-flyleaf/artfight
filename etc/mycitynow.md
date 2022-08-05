@@ -1,1 +1,0 @@
-info for my own characters

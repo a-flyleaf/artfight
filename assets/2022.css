@@ -16,7 +16,7 @@ main{background:#fff; padding:0 0 1rem;}
 h1,h2,h3,h4,p,hr,main ul,details{max-width:35rem;}
 h1,h2{padding-bottom:0; text-align:center;}
 h1{font-size:2em; font-weight:normal; padding-top:.5rem;}
-h2{font-size:1.5em; color:#5b5b5b;}
+h2{font-size:1.5em; color:#5b5b5b; line-height:1.25;}
 h3,h4{max-width:35rem; margin:1em auto 0; padding-left:1rem;}
 h4{font-weight:normal; font-size:1.25em; margin-top:.5em;}
 p{margin:.5em 0; padding:0 1rem;}

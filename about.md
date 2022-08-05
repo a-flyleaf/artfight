@@ -1,39 +1,39 @@
 ---
 layout: 2022
 title: about
+css: h2{text-align:left; margin-bottom:-.95em; padding-right:8em;} .box{max-width:35rem; padding:.5em .05em;}
+
+qna:
+  - question: "define:ArtFight"
+    answer: ArtFight is a month-long art trading competition, in which participants earn points for drawing each others’ characters. More info on [the official about page](https://artfight.net/info/about)!
+  - question: Who are you? Why this site?
+    answer: |-
+      [NightAuctor](https://artfight.net/~NightAuctor) on ArtFight, <a href="/" target="_blank">a-flyleaf</a> elsewhere! Digital artist, here for a good time, posts art almost exclusively to [deviantArt](https://a-flyleaf.deviantart.com/) and/or my own site these days.
+      
+      I'm a stickler for archival and I don't like that most of the official website is inaccessible to guests, so I made this place to show everything off!
+  - question: My art and/or <a href='artists'>links</a> are here; I want them taken down!
+    answer: |-
+      Sorry about that! Contact me onsite or dA (links above; you’ll get a faster response on dA) and I’ll note that your attack and/or info can only be viewed onsite.
+      
+      Note: If it's art *I* made, I probably won't take it down---but can remove the recipient info on request.
+  - question: social media links broke
+    answer: |-
+      Everything is up-to-date as of <b>August 3, 2022</b>\*; in the interest of not stalking people, I won’t be updating them---*unless*:
+      - the person contacts me to update/remove their links, <em style="font-style:normal;text-transform:uppercase;">or</em>
+      - the person shows up again (I draw for them and/or they draw for me) in a future year.
+      
+      \*Disclaimer: I was originally going to leave 2021 links alone, but updated them in the process of overhauling the site for 2022. The backend has better forward-compatibility now, so this shouldn't happen again <span style="display:inline-block;">>_>\"</span>)
+  - question: You drew something for me; what can I do with it?
+    answer: |-
+      ~Whatever you want~, my dude.
+      
+      No, seriously. Reupload to character galleries! Use in edits! Print it, trace it, crop it! I do not care. It's yours now, be free.
+      
+      The **only** caveat is that I want credit for the original work! The names <i>NightAuctor</i> and <i>a-flyleaf</i> both work; I'd *prefer* a non-ArtFight link (either to [my deviantArt](https://www.deviantart.com/a-flyleaf) or this website), but both names should lead back to me regardless.
+  - question: Do you have a Toyhouse or other platform?
+    answer: |-
+      Toyhouse: No, but I made [my own version which is for me](https://a-flyleaf.github.io/toyshelf) ᕕ(&nbsp;ᐛ&nbsp;)ᕗ Everyone I threw on ArtFight can also be found there!
+      
+      Other platforms: Probably not! (Yes, you can reupload art I made for you on $socialMediaOfYourChoice, ↑with credit↑.) You can find other internet corners I may be lurking around through [my base site](https://a-flyleaf.github.io).
 ---
-**[this is the same as last year and could use a rewrite, pls hold]**
-
-<h2>define:ArtFight</h2>
-<div class="textbox"><p>ArtFight is a month-long art trading competition, in which participants earn points for drawing each others’ characters. More info on <a href="https://artfight.net/info/about" target="_blank">the official about page</a>!</p></div>
-
-<h2>who’re you? why this site?</h2>
-<div class="textbox">
-	<p><a href="https://artfight.net/~NightAuctor" target="_blank">NightAuctor</a> on ArtFight, <a href="/" target="_blank">a-flyleaf</a> elsewhere! Digital artist, here for a good time, posts art almost exclusively to <a href="https://a-flyleaf.deviantart.com/" target="_blank">deviantArt</a> and/or my own site these days.</p>
-	<p>2021 was my first year doing ArtFight and it was a <em>blast</em>. I don’t like that the onsite artist and attack info is inaccessible to guests, though, so I thought I’d show off art people made for me (and art I made for others) on my own pages!</p>
-</div>
-
-<h2>I drew something for you; I don’t want it here!</h2>
-<div class="textbox">
-	<p>Sorry about that! Contact me onsite or dA (links above; you’ll get a faster response on dA) and I’ll make a note your attack can only be viewed onsite.</p>
-	<p>I’ll also take down any <b>offsite links</b> (social media, custom site) you don’t want here, no caveat.</p>
-</div>
-
-<h2>social media links broke</h2>
-<div class="textbox"><p>Everything is up-to-date as of <b>September 25, 2021</b>; in the interest of not stalking people, I won’t be changing them unless contacted otherwise (see above).</p></div>
-
-<h2>You drew something for me; what can I do with it?</h2>
-<div class="textbox">
-	<p>~Whatever you want~, my dude.</p>
-	<p>No, seriously. Reupload to character galleries! Use in edits! Print it, trace it, crop it! I do not care. The <strong>only</strong> caveat is that I want credit for the original work, ideally not through ArtFight (due to aforementioned lack of guest viewing).</p>
-</div>
-
-<h2>-points at characters on the “<a href="{%include url.html%}/for-me">cool stuff people drew for me</a>” page- who is thaaaaat</h2>
-<div class="textbox">
-	<p>Original Characters Please Do Steal/Transform/Reinterpret/etc.™</p>
-	<p>Basically the only thing I requested was, and will continue to be, that people <b>have fun with the designs</b>; I do not care about accuracy to the reference. So there’s lots of variation and I love it :D</p>
-	<p>Maybe eventually I will get around to making a new page to actually showcase the characters proper. For now here’s some dA links:</p><ul>
-		<li>neon winged thing: <a href="https://www.deviantart.com/nightauctor/gallery?q=%23zero" target="_blank">Zero</a></li>
-		<li>blue kid & weirdass furry: <a href="https://www.deviantart.com/nightauctor/gallery/75431402/cringetober" target="_blank">from cringetober 2020</a></li>
-		<li>body horror mcgee: <a href="https://www.deviantart.com/nightauctor/gallery?q=%23sawface" target="_blank">“sawface”</a></li>
-</ul></div>
+{%for faq in page.qna%}<section><h2>{{faq.question}}</h2><div class="box">{{faq.answer|markdownify}}</div></section>{%endfor%}

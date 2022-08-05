@@ -5,7 +5,7 @@
 *{margin:0; padding:0; box-sizing:border-box; font-size:100%;}
 body{overflow-x:hidden; word-wrap:break-word; font-family:'noto sans','segoe ui',sans-serif; line-height:1.5; background:#3d3d3d; color:#3d3d3d;}
 img{max-width:100%; height:auto;}
-header,nav,main,figure,footer{display:block;}
+header,nav,main,figure,section,articlefooter{display:block;}
 
 ::selection{background:rgba(128,128,128,.25);}
 a{color:inherit; text-decoration:underline 1.2px dashed #c2c2c2;} a:focus,a:hover,a:active{color: #5acae9; text-decoration-color:#abe4f3;}

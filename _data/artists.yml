@@ -110,6 +110,7 @@
   tw: Ribust0l
   ig: Ribustol
 - un: DrMordred
+  nolinks: y
 - un: SteampunkLlama
   tb: steampunk-llama
   ig: steampunkllama
@@ -196,7 +197,7 @@
   da: lord-sivler
   ig: princesivler
   site-url: "https://www.youtube.com/channel/UCQGBJKFAM3WiarIP1ntb4qg"
-  site-nm: my youtub! i post animations here sometimes
+  site-nm: my youtube! i post animations here sometimes
 - un: Flickerhand
   tb: Ghostlykidplaidbanana
 - un: HoarfrostArts
@@ -209,6 +210,7 @@
   site-url: "https://ko-fi.com/hoarfrostarts312"
   site-nm: "Buy Hoarfrost Arts a Coffee! | Ko-Fi"
 - un: mariowser_
+  nolinks: y
 - un: Xenos6
   da: XenosDraws
   tb: e-d-g-y-boi

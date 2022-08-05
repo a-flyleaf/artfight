@@ -1,7 +1,7 @@
 ---
 layout: 2022
 title: about
-css: h2{text-align:left; margin-bottom:-.95em; padding-right:8em;} .box{max-width:35rem; padding:.5em .05em;}
+css: "main{padding:0 1rem 1rem;} h2{text-align:left; margin-bottom:-.95em;} .box{max-width:35rem; padding:.5em .05em;} @media only screen and (min-width:575px){h2{padding-right:8em;}}"
 
 qna:
   - question: "define:ArtFight"

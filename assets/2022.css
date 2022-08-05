@@ -47,11 +47,26 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 }
 
 /*gallery*/
-.gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed #c2c2c2; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
-.gallery a:hover,.gallery a:focus,.gallery a:active{background:#e0e0e0; border-color:#ababab;}
+.gallery{line-height:0;margin:5px 0;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
+.gallery a:hover,.gallery a:focus,.gallery a:active{background:#e0e0e0;}
 .gallery figure{width:50%;}
 @media only screen and (min-width:525px) {.gallery figure{width:30%; margin:0 1%;} .gallery a{width:100%; height:auto;}}
 @media only screen and (min-width:750px) {.gallery figure{margin:0 .75%;} .gallery.four figure{width:23%;} .gallery.five figure{width:18.15%;} .gallery.six figure{width:15%;}}
 @media only screen and (min-width:910px) {.gallery.four figure{width:210px; margin:0 5px;} .gallery.four{max-width:910px;} .gallery{margin:5px auto;}}
 @media only screen and (min-width:1140px) {.gallery.five figure{width:210px; margin:0 5px;} .gallery.five{max-width:1140px;}}
 @media only screen and (min-width:1330px) {.gallery.six figure{width:210px; margin:0 5px;} .gallery.six{max-width:1330px;}}
+
+/*fancybox-customization*/
+.fancybox__counter,.fancybox__button--slideshow,.fancybox__button--thumbs,.fancybox__thumbs{display:none;}
+.fancybox__toolbar{background:0;}
+.fancybox__slide{padding-bottom:1em;}
+.fancybox__caption a{text-decoration:none;}
+
+/*teams
+cyberpunk .cp #bf54e2 | bloom  .bm #98a54e
+steampunk .sp #bb6726 | wither .wr #a86b8b
+*/
+.y2021.def{border-color:#bb6726 !important;}
+.y2021,.y2021.ff{border-color:#bf54e2 !important;}
+.y2022.def{border-color:#a86b8b !important;}
+.y2022,.y2022.ff{border-color:#98a54e !important;}

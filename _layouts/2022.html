@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>ArtFight showcase{%if page.title%} | {{page.title}}{%endif%}</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/> 
 	<link rel="stylesheet" type="text/css" href="{%include url.html%}/assets/2022.css">{%if page.css%}
 	<style>{{page.css}}</style>{%endif%}
 </head><body>
@@ -27,5 +28,12 @@
 		<li>art and characters belong to those credited</li>
 		<li>font is Noto Sans via <a href="https://google-webfonts-helper.herokuapp.com">google-webfonts-helper</a></li>
 	</ul><p><a href="https://github.com/a-flyleaf/artfight">©&nbsp;2021–2022</a></p></footer>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script><script>
+	//animation disabling doesn't seem to work but this should make socmed links less annoying
+	Fancybox.bind("[data-fancybox]", {
+		animated: false,
+		click: null
+	});
+</script>
 </body>
 </html>

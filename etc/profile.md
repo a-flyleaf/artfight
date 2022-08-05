@@ -1,7 +1,7 @@
 ---
 layout: 2022
 title: NightAuctor profile copy
-css: small{font-size:.85em;} h2{font-weight:normal; padding-top:0;} main ul:first-of-type{padding:.5em 1em .5em 2em;} h3{display:inline; padding-left:0;} .box{padding:0 1em 1em 0;} .box ul{padding-right:0;}
+css: small{font-size:.85em;} h2{font-weight:normal; padding-top:0;} main ul:first-of-type{padding:.5em 1em .5em 2em;} h3{display:inline; padding-left:0;} .box{padding:0 1em 1em 0;} .box ul{padding-right:0;} .box ul li{margin:.25em 0;}
 notes: |-
   #### How NightAuctor Does the ArtFight Thing
   

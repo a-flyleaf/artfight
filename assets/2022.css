@@ -63,6 +63,19 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 @media only screen and (min-width:1330px) {.gallery.six figure{width:210px; margin:0 5px;} .gallery.six{max-width:1330px;}}
 .atk{border-style:dotted !important;}
 
+/*dark mode*/
+@media (prefers-color-scheme:dark){
+	main{background:#222; color:#fff; line-height:1.65;}
+	.box{background:#2f2f2f; border-color:#3d3d3d;}
+	main a{text-decoration:underline 2px solid #868686;}
+	main a:hover,main a:focus,main a:active{text-decoration-color:#3e7686}
+	h1{color:#e0e0e0;} h2{color:#a4a4a4;} h2 a{text-decoration-color:#545454;}
+	.gallery a:hover,.gallery a:focus,.gallery a:active{background:#3d3d3d; border-color:#fff;}
+	hr{background:0; height:0; border:2px dotted #3d3d3d;}
+	summary{border-bottom-width:2.5px;} summary:hover,summary:active{border-bottom:2.5px solid #545454;}
+	blockquote{border-color:#3d3d3d;}
+}
+
 /*fancybox-customization*/
 .fancybox__counter,.fancybox__button--slideshow,.fancybox__button--thumbs,.fancybox__thumbs{display:none;}
 .fancybox__toolbar{background:0;}

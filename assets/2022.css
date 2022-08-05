@@ -47,8 +47,8 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 }
 
 /*gallery*/
-.gallery{line-height:0; margin:1em auto;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
-.gallery a:hover,.gallery a:focus,.gallery a:active{background:#e0e0e0;}
+.gallery{line-height:0; margin:1em auto;} .gallery figure,.gallery a{display:inline-block; border-radius:5px; text-align:center;} .gallery a{border:2px dashed #c2c2c2; padding:3px; width:210px; height:210px; margin:5px;} .gallery img{border-radius:3px;}
+.gallery a:hover,.gallery a:focus,.gallery a:active{background:#e0e0e0; border-color:#ababab;}
 .gallery figure{width:50%;}
 @media only screen and (min-width:525px) {.gallery figure{width:30%; margin:0 1%;} .gallery a{width:100%; height:auto;}}
 @media only screen and (min-width:750px) {.gallery figure{margin:0 .75%;} .gallery.four figure{width:23%;} .gallery.five figure{width:18.15%;} .gallery.six figure{width:15%;}}

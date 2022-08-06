@@ -75,6 +75,7 @@
   img: "12"
   for: Royal-Chimera
   pts: 47.25
+  cptn: "(fun fact: discovered a love for the blocky brush through this attack!)"
 - link: 2328036.see-them-rollin-they-skatin
   time: 2021-07-14 15:22:23
   artist: NightAuctor
@@ -96,6 +97,7 @@
   file: gif
   ff: Cyberpunk
   pts: 13.75
+  cptn: "(based on the animations in <a href='https://funkin.me/' target='_blank'>Friday Night Funkin</a>)"
 - link: 2427507.smile-for-the-camera
   time: 2021-07-19 17:29:51
   artist: NightAuctor
@@ -334,6 +336,7 @@
   img: "10"
   for: Middynos
   pts: 485.25
+  cptn: "based on album covers in <a href='https://open.spotify.com/playlist/7gLnUY4A3RzDopxU92FClu' target='_blank'>Rookie’s playlist</a>: “<a href='https://www.youtube.com/watch?v=kIdftKW2LuU' target='_blank'>Me and Michael</a>” · “<a href='https://www.youtube.com/watch?v=sVx1mJDeUjY' target='_blank'>After&nbsp;Dark</a>” · “<a href='https://www.youtube.com/watch?v=4mMc83y4foU' target='_blank'>Moon&nbsp;Waltz</a>” · “<a href='https://www.youtube.com/watch?v=Wu4Z_1P9ZyA' target='_blank'>Absence</a>” · “<a href='https://www.youtube.com/watch?v=7V9AdxWpWIk' target='_blank'>A Night at the Movies</a>” · <i><a href='https://www.youtube.com/watch?v=fku72SKMU1g' target='_blank'>.temp</a></i> · <i><a href='https://www.youtube.com/playlist?list=OLAK5uy_l-Y7OV_2R7DZX_BoIhJ4ECXSK9B8wdwGI' target='_blank'>Micropop</a></i> · “<a href='https://www.youtube.com/watch?v=WjppX1lRBZM' target='_blank'>Keia</a>”"
 - link: 3455473.elusive-sea-change
   time: 2022-07-12 19:04:09
   artist: NightAuctor
@@ -361,6 +364,7 @@
   for: Sharky1j
   ff: Bloom
   pts: 27
+  cptn: "“AI Shark” pictures from <a href='https://neuralblender.com/' target='_blank'>NeuralBlender</a>"
 - link: 3591752.off-to-cause-problems-on-purpose
   time: 2022-07-16 18:40:37
   artist: NightAuctor
@@ -388,6 +392,7 @@
   img: "18"
   for: Etch-Is-Sketchy
   pts: 154
+  cptn: "(<a href='https://www.youtube.com/channel/UCwEMbb9xnT9uFUAg7J9HjCA' target='_blank'>very fun series</a>!)"
 - link: 3685393.chilly-awoos
   time: 2022-07-19 17:59:48
   artist: NightAuctor
@@ -547,7 +552,7 @@
   ff: Bloom
   pts: 76
   char: sawface
-  note: "(<a href='https://twitter.com/Sparkarty/status/1553598340008476672?s=20&amp;t=lgCS7pbGDZBvop8yHu9xfg' target='_blank'>animation included</a>!)"
+  cptn: "(<a href='https://twitter.com/Sparkarty/status/1553598340008476672?s=20&amp;t=lgCS7pbGDZBvop8yHu9xfg' target='_blank'>main animation on twitter</a>)"
 - link: 4058780.im-on-fire
   time: 2022-08-01 02:02:43
   artist: prince-sivler

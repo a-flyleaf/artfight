@@ -83,7 +83,7 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 .fancybox__caption{text-align:center;} .fancybox__caption p{max-width:auto;}
 .tofrom a{text-decoration:none;}
 .tofrom a:hover,.tofrom a:focus,.tofrom a:active{text-decoration:underline 1.2px dashed #c2c2c2; color:inherit;}
-.cptn{font-size:.85em;} .cptn a{text-decoration-color:#808080;} .cptn a:hover,.cptn a:focus,.cptn a:active{text-decoration-color:#c2c2c2;}
+.cptn{font-size:.85em;} .cptn a{text-decoration-color:#808080;} .cptn a:hover,.cptn a:focus,.cptn a:active{text-decoration-color:#3e7686;}
 
 /*teams
 cyberpunk #bf54e2 | bloom  #98a54e

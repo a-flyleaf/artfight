@@ -5,7 +5,7 @@ css: "main{padding:0 1rem 1rem;} h2{text-align:left; margin-bottom:-.95em;} .box
 
 qna:
   - question: "define:ArtFight"
-    answer: ArtFight is a month-long art trading competition, in which participants earn points for drawing each others’ characters. More info on [the official about page](https://artfight.net/info/about)!
+    answer: ArtFight is a month-long art trading competition, held every July, in which participants are sorted into two teams and earn points for "attacking" (creating art of) others' characters. More info on [the official about page](https://artfight.net/info/about)!
   - question: Who are you? Why this site?
     answer: |-
       [NightAuctor](https://artfight.net/~NightAuctor) on ArtFight, <a href="/" target="_blank">a-flyleaf</a> elsewhere! Digital artist, here for a good time, posts art almost exclusively to [deviantArt](https://a-flyleaf.deviantart.com/) and/or my own site these days.
@@ -22,7 +22,7 @@ qna:
       - the person contacts me to update/remove their links, <em style="font-style:normal;text-transform:uppercase;">or</em>
       - the person shows up again (I draw for them and/or they draw for me) in a future year.
       
-      \*Disclaimer: I was originally going to leave 2021 links alone, but updated them in the process of overhauling the site for 2022. The backend has better forward-compatibility now, so this shouldn't happen again <span style="display:inline-block;">>_>\"</span>)
+      \*Disclaimer: I was originally going to leave 2021 links alone, but updated them in the process of overhauling the site for 2022. The backend has better forward-compatibility now, so this shouldn't happen again <span style="display:inline-block;">>_>\"</span>
   - question: You drew something for me; what can I do with it?
     answer: |-
       ~Whatever you want~, my dude.
@@ -34,6 +34,6 @@ qna:
     answer: |-
       Toyhouse: No, but I made [my own version which is for me](https://a-flyleaf.github.io/toyshelf) ᕕ(&nbsp;ᐛ&nbsp;)ᕗ Everyone I threw on ArtFight can also be found there!
       
-      Other platforms: Probably not! (Yes, you can reupload art I made for you on $socialMediaOfYourChoice, ↑with credit↑.) You can find other internet corners I may be lurking around through [my base site](https://a-flyleaf.github.io).
+      Other platforms: Probably not! (Yes, you can reupload art I made for you on $socialMediaOfYourChoice, ↑ with credit ↑.) You can find other internet corners I may be lurking around through [my base site](https://a-flyleaf.github.io).
 ---
 {%for faq in page.qna%}<section><h2>{{faq.question}}</h2><div class="box">{{faq.answer|markdownify}}</div></section>{%endfor%}

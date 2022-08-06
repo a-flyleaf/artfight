@@ -7,7 +7,7 @@ See [Toyshelf](https://a-flyleaf.github.io/toyshelf) for art by yours truly, and
 
 Names link to ArtFight character pages.
 
-<article id="zero">{%for chara in site.data.roster%}{%if chara.nm=="Zero"%}<p class="float"><img src="{%include url.html%}/assets/img/{{chara.prev}}.png" alt=""></p>
+<article id="zero">{%for chara in site.data.roster%}{%if chara.nm=="Zero"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.prev}}.png" alt=""></p>
 	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
 	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
 	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
@@ -16,7 +16,7 @@ Names link to ArtFight character pages.
 
 ----
 
-<article id="sawface">{%for chara in site.data.roster%}{%if chara.nm contains "sawface"%}<p class="float"><img src="{%include url.html%}/assets/img/{{chara.prev}}.png" alt=""></p>
+<article id="sawface">{%for chara in site.data.roster%}{%if chara.nm contains "sawface"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.prev}}.png" alt=""></p>
 	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
 	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
 	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
@@ -26,7 +26,7 @@ Names link to ArtFight character pages.
 
 ----
 
-<article id="toolbelt">{%for chara in site.data.roster%}{%if chara.nm contains "toolbelt"%}<p class="float"><img src="{%include url.html%}/assets/img/{{chara.prev}}.png" alt=""></p>
+<article id="toolbelt">{%for chara in site.data.roster%}{%if chara.nm contains "toolbelt"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.prev}}.png" alt=""></p>
 	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
 	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
 	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
@@ -35,7 +35,7 @@ Names link to ArtFight character pages.
 
 ----
 
-<article id="entity">{%for chara in site.data.roster%}{%if chara.nm contains "entity"%}<p class="float"><img src="{%include url.html%}/assets/img/{{chara.prev}}.png" alt=""></p>
+<article id="entity">{%for chara in site.data.roster%}{%if chara.nm contains "entity"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.prev}}.png" alt=""></p>
 	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
 	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
 	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
@@ -44,7 +44,7 @@ Names link to ArtFight character pages.
 
 ----
 
-<article id="wolfskull">{%for chara in site.data.roster%}{%if chara.nm contains "wolf"%}<p class="float"><img src="{%include url.html%}/assets/img/{{chara.prev}}.png" alt=""></p>
+<article id="wolfskull">{%for chara in site.data.roster%}{%if chara.nm contains "wolf"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.prev}}.png" alt=""></p>
 	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
 	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
 	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>

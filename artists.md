@@ -15,7 +15,7 @@ Links are up-to-date as of **August 3, 2022**, copied as they appear onsite (inc
 	{%if artist.tw%}<li>Twitter: <a href="https://twitter.com/{{artist.tw}}">{{artist.tw}}</a></li>{%endif%}
 	{%if artist.ig%}<li>Instagram: <a href="https://instagram.com/{{artist.ig}}">{{artist.ig}}</a></li>{%endif%}
 	{%if artist.th%}<li>Toyhouse: <a href="https://toyhou.se/{{artist.th}}">{{artist.th}}</a></li>{%endif%}
-	{%if artist.site-url%}<li>Custom Site: “<a href="{{artist.site-url}}">{{artist.site-nm}}</a>”</li>{%endif%}
+	{%if artist.site-url%}<li>Custom Site: {%if artist.un != "NightAuctor"%}“{%endif%}<a href="{{artist.site-url}}">{{artist.site-nm}}</a>{%if artist.un != "NightAuctor"%}”{%endif%}</li>{%endif%}
 </ul>{%endif%}</div></article>{%endfor%}
 
 <small>Yes, I know this page is a bit unwieldy. I'll, uh, figure out how to put artist links *with* the attacks next round, maybe....</small> 

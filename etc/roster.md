@@ -22,7 +22,7 @@ Names link to ArtFight character pages.
 	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
 	<details><summary>permissions</summary><blockquote>{{chara.perm|markdownify}}</blockquote></details>{%endif%}{%endfor%}
 <div class="gallery four">{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}{%if art.for=='NightAuctor'%}<!--prevents the Vaukran cameo from causing problems-->{%if art.char contains 'sawface'%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="sawface" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'><b>{{art.artist}}</b></a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}"><img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt=""/></a></figure>{%endif%}{%endif%}{%endfor%}</div>
-<p id="note">Not shown: makes a small cameo in <a href="{%include url.html%}/for-you#art-29">an attack I drew</a>!</p></article>
+<p id="note">Not shown: makes a small cameo in <a href="{%include url.html%}/for-you#2022-5">an attack I drew</a>!</p></article>
 
 ----
 

@@ -1,3 +1,5 @@
+# bro this could be page-specific
+
 - nm: Zero
   af: 1439410.zero
   prev: zero
@@ -9,7 +11,7 @@
     - [sketchdump & design notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
     - [additional sketches](../assets/img/roster/zero-2021.png)
   desc: |-
-    A technicolor lizardy-friemd that I’ve had since 2012, and his design has never ever *ever* been perfectly consistent but I have fun with it—and so have other people, with things like [making his dot markings look like **extra eyes**](https://cdn.discordapp.com/attachments/350353682489147393/521831635738558467/IMG_20181210_233027.jpg]) (by the lovely [starmoths](https://www.deviantart.com/starmoths)!) and [adding **glowy effects**](v). And now I invite y’all to do the same >;3
+    A technicolor lizardy-friemd that I’ve had since 2012, and his design has never ever *ever* been perfectly consistent but I have fun with it—and so have other people, with things like [making his dot markings look like **extra eyes**](../assets/img/roster/zero-bystarmoths.jpg) (by the lovely [starmoths](https://www.deviantart.com/starmoths)!) and [adding **glowy effects**](https://www.deviantart.com/serosthedragon/art/Gift-for-A-FlyLeaf-878643581). And now I invite y’all to do the same >;3
     
     Doesn’t have much lore but I roleplayed him briefly, and here’s the gist:
     - created in some sort of laboratory for unknown reasons; wholly organic, with no supernatural powers
@@ -41,7 +43,7 @@
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
   desc: |-
-    one of two [cringetober](https://www.deviantart.com/nightauctor/gallery?q=%23cringetober) characters, alongside [the other one](#entity). as noted on [my profile]({%include url.html%}/etc/profile), feel free to take extensive artistic liberty—just have fun with ’em~
+    one of two [cringetober](https://www.deviantart.com/nightauctor/gallery?q=%23cringetober) characters, alongside [the other one](#entity). as noted on [my profile](profile), feel free to take extensive artistic liberty—just have fun with ’em~
   perm: |-
     literally made up the palette from the waist down on the spot, so go ham on that
 - nm: the entity
@@ -50,7 +52,7 @@
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
   desc: |-
-    one of two [cringetober](https://www.deviantart.com/nightauctor/gallery?q=%23cringetober) characters, alongside [toolbelt kid](#toolbelt). as noted on [my profile]({%include url.html%}/etc/profile), feel free to take extensive artistic liberty—just have fun with ’em~
+    one of two [cringetober](https://www.deviantart.com/nightauctor/gallery?q=%23cringetober) characters, alongside [toolbelt kid](#toolbelt). as noted on [my profile](profile), feel free to take extensive artistic liberty—just have fun with ’em~
   perm: |-
     genuinely have no idea what this thing is, but the ears are based on the [bat-eared fox](https://animals.sandiegozoo.org/animals/bat-eared-fox). different interpretations welcome; you may draw them as traffic cones if you wish
 - nm: “wolf-skull”

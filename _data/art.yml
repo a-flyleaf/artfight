@@ -590,7 +590,6 @@
   artist: NightAuctor
   img: "01"
   for: crowwbar
-  ff: Werewolves
   pts: 75.25
 - link: 4427153.unwraps-hte-crunch
   time: 2023-07-04 17:24:52
@@ -651,7 +650,6 @@
   for: BottleOfTeeth
   ff: Fossils
   pts: 52.5
-  cptn: "OPTIONAL caption"
 - link: 9285276.get-a-load-of-that-dog
   time: 2025-07-02 23:16:51
   artist: NightAuctor

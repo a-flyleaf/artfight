@@ -6,22 +6,34 @@
   tw: twitter
   ig: instagram
   th: toyhouse
+  sh: sheezy
+  bs: bluesky
+  uv: unvale
+  cr: cara
   site-url: "https://artfight.net"
   site-nm: custom site
+
+
 - un: NightAuctor
   da: NightAuctor
   site-url: "https://a-flyleaf.github.io"
   site-nm: it me, you are here!
+  dt: 2022
+
 - un: Middynos
   da: Middynos
   tb: crispy-sand-gator
   tw: Tazumili
   ig: middynos
   th: Middynos
+  dt: 2022
+
 - un: paytonsnewheart
   da: SorenTheDragon
   ig: paytonsnewheart
   th: paytonsnewheart
+  dt: 2022
+
 - un: Nanometer
   tb: nanadoesart
   tw: NanaDoesArt
@@ -29,18 +41,26 @@
   th: NanaDoesArt
   site-url: "https://ko-fi.com/nanadoesart"
   site-nm: Kofi
+  dt: 2022
+
 - un: TikkiToon
   da: Toon-O-Clock
   tw: tikkitoonArt
   ig: tikkitoon
   site-url: "https://beacons.ai/tikkitoon"
   site-nm: Where else to find me
+  dt: 2022
+
 - un: rainclouddoodles
   site-url: "https://www.webtoons.com/en/challenge/summers-blues/list?title_no=496766"
   site-nm: Summer's Blues!
+  dt: 2022
+
 - un: Zvarricopter
   da: Zvarricopter
   th: Zvarricopter
+  dt: 2022
+
 - un: kiriska
   da: kiriska
   fa: kiriska
@@ -48,9 +68,13 @@
   tw: kiriska
   ig: kiriska
   th: kiriska
+  dt: 2022
+
 - un: BloodRuined
   tw: BloodRuined
   th: KillingMorph
+  dt: 2022
+
 - un: PricklyGoose
   da: PricklyGoose
   fa: PricklyGoose
@@ -60,12 +84,16 @@
   th: PricklyGoose
   site-url: "https://linktr.ee/PricklyGoose"
   site-nm: Linktree
+  dt: 2022
+
 - un: MisterMuse
   da: MisterMuse
   tb: mister-muse
   th: MisterMuse
   site-url: "https://mister-muse.tumblr.com/links"
   site-nm: All offsite links
+  dt: 2022
+
 - un: Royal-Chimera
   da: royal-chimera
   tb: royal-chimera
@@ -74,10 +102,14 @@
   th: royal-chimera
   site-url: "https://www.youtube.com/channel/UC9h4bhx81G7ElNve6t2M0Lw"
   site-nm: Youtube
+  dt: 2022
+
 - un: Oureioboros
   da: nostalgeist
   tw: Oureioboros
   th: Oureioboros
+  dt: 2022
+
 - un: SaintOfCorn
   tb: saintofcorn
   tw: "SaintOfCorn"
@@ -85,49 +117,73 @@
   th: toyhouse
   site-url: "https://saintofcorn.carrd.co/"
   site-nm: "[additional links via Carrd]"
+  dt: 2022
+
 - un: limineonal
   tw: limineonal
   ig: limineonal
   th: limineonal
   site-url: "https://limineonal.carrd.co/"
   site-nm: Other links
+  dt: 2022
+
 - un: finchii
   tw: finchii_
   ig: finchii_arts
   th: finchii
+  dt: 2022
+
 - un: yuckie_dappy
   ig: flappy_silly
+  dt: 2022
+
 - un: fezzamond
   th: Fezzamond
+  dt: 2022
+
 - un: Atroppa-Nightshade
   da: Atroppa-Nightshade
   tb: atroppa-nightshade
   th: Atroppa_Nightshade
   site-url: "https://www.youtube.com/channel/UC4ya-kMRncRTLmsLioloQOw/featured"
   site-nm: "My Youtube :D"
+  dt: 2022
+
 - un: Ribustol
   da: Ribustol
   tw: Ribust0l
   ig: Ribustol
+  dt: 2022
+
 - un: DrMordred
   nolinks: y
+  dt: 2022
+
 - un: SteampunkLlama
   tb: steampunk-llama
   ig: steampunkllama
   th: SteampunkLlama
   site-url: "https://flightrising.com/main.php?p=lair&tab=userpage&id=209084"
   site-nm: Flight Rising
+  dt: 2022
+
 - un: Timothy_stars
   ig: Timothy_stars
+  dt: 2022
+
 - un: Sweetybeedy
   ig: megandoesartisuppose
   site-url: "https://youtube.com/channel/UCHarctFhldWSXzUKTFfiRag"
   site-nm: Youtube
+  dt: 2022
+
 - un: TaxiBirds
   da: TaxiBirds
   tb: taxibirds
   ig: Taxibirds
   th: TaxiBirds
+  dt: 2022
+
 - un: mims
   tb: mimillion
   tw: mimillion
@@ -135,8 +191,12 @@
   th: mims
   site-url: "https://www.youtube.com/channel/UCu01SydzQo4z3nu5XJIlp_g/"
   site-nm: Youtube
+  dt: 2022
+
 - un: NiloOz611
   tw: katotheberry
+  dt: 2022
+
 - un: Rufinator
   da: Rufinator
   tb: rufinator
@@ -144,17 +204,25 @@
   th: Rufinator
   site-url: "https://linktr.ee/rufinator"
   site-nm: My Linktr.ee
+  dt: 2022
+
 - un: rainuu
   ig: _rainuu_
   th: rainuu
   site-url: "https://flightrising.com/main.php?p=lair&tab=userpage&id=263032"
   site-nm: Flight Rising
+  dt: 2022
+
 - un: smilepaint
   tb: smilepaint
   tw: lawful_awful
   th: smilepaint
+  dt: 2022
+
 - un: poltergeist
   ig: hykanari
+  dt: 2022
+
 - un: TalisM4niac
   da: TalisM4niac
   fa: entropiousgasmask
@@ -164,42 +232,64 @@
   th: TalisM4niac
   site-url: "https://talis-boltz.carrd.co/"
   site-nm: carrd
+  dt: 2022
+
 - un: Kitsu_Catsu
   ig: kit.suc
   th: Kit_suc
+  dt: 2022
+
 - un: protag
   tb: pupguin
   ig: pupguins
   th: protagtropes
+  dt: 2022
+
 - un: dogingiva
   da: bjrd
   tb: dogingiva
+  dt: 2022
+
 - un: Sharky1j
   tw: Sparkarty
+  dt: 2022
+
 - un: saltochsno
   da: sjofisk
   tb: sojfisk
   tw: saltochsno
   ig: saltochsno
+  dt: 2022
+
 - un: yonah
   da: yonah9
   tb: yonahshandchickens
   tw: yonah952
   th: yonah
+  dt: 2022
+
 - un: PoliStrauu
   tw: PoliStrauu
   ig: PoliStrauu
+  dt: 2022
+
 - un: Etch-Is-Sketchy
   da: EtchMcSketchy
   tw: EtchIsSketchy
   ig: etchissketchy
+  dt: 2022
+
 - un: prince-sivler
   da: lord-sivler
   ig: princesivler
   site-url: "https://www.youtube.com/channel/UCQGBJKFAM3WiarIP1ntb4qg"
   site-nm: my youtube! i post animations here sometimes
+  dt: 2022
+
 - un: Flickerhand
   tb: Ghostlykidplaidbanana
+  dt: 2022
+
 - un: HoarfrostArts
   da: HoarfrostArts
   fa: HoarfrostArts
@@ -209,8 +299,12 @@
   th: HoarfrostArts
   site-url: "https://ko-fi.com/hoarfrostarts312"
   site-nm: "Buy Hoarfrost Arts a Coffee! | Ko-Fi"
+  dt: 2022
+
 - un: mariowser_
   nolinks: y
+  dt: 2022
+
 - un: Xenos6
   da: XenosDraws
   tb: e-d-g-y-boi
@@ -218,6 +312,8 @@
   th: Xenos6
   site-url: "https://xenosdraws.carrd.co/"
   site-nm: Commission Info
+  dt: 2022
+
 - un: mistellix
   tw: mistellix
   ig: mistellix

@@ -17,6 +17,7 @@ qna:
       
       Note: If it's art *I* made, I probably won't take it down---but can remove the recipient info on request.
   - question: social media links broke
+    id: socmed
     answer: |-
       Everything is up-to-date as of <b>August 3, 2022</b>\*; in the interest of not stalking people, I won’t be updating them---*unless*:
       - the person contacts me to update/remove their links, <em style="font-style:normal;text-transform:uppercase;">or</em>
@@ -36,4 +37,4 @@ qna:
       
       Other platforms: Probably not! (Yes, you can reupload art I made for you on $socialMediaOfYourChoice, ↑ with credit ↑.) You can find other internet corners I may be lurking around through [my base site](https://a-flyleaf.github.io).
 ---
-{%for faq in page.qna%}<section><h2>{{faq.question}}</h2><div class="box">{{faq.answer|markdownify}}</div></section>{%endfor%}
+{%for faq in page.qna%}<section{%if faq.id%} id="{{faq.id}}"{%endif%}><h2>{{faq.question}}</h2><div class="box">{{faq.answer|markdownify}}</div></section>{%endfor%}

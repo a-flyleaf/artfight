@@ -1,8 +1,6 @@
-# bro this could be page-specific
-
 - nm: Zero
+  id: zero
   af: 1439410.zero
-  prev: zero
   img: |-
     - [multi-winged fullbody](https://a-flyleaf.github.io/toyshelf/art/zero-wings)
     - [neon fullbody](https://a-flyleaf.github.io/toyshelf/art/neon-zero)
@@ -24,8 +22,8 @@
      
      the wings and feather patterns especially keep changing every other drawing <span style="display:inline-block;">¯\\\_( ᐛ )_/¯</span>
 - nm: “sawface”
+  id: sawface
   af: 1416800.sawface
-  prev: sawface
   img: |-
     - [titled headshot](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
     - [fullbody](https://a-flyleaf.github.io/toyshelf/art/legs)
@@ -47,8 +45,8 @@
   perm: |-
     literally made up the palette from the waist down on the spot, so go ham on that
 - nm: the entity
+  id: entity
   af: 1416706.the-entity
-  prev: entity
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
   desc: |-
@@ -56,8 +54,8 @@
   perm: |-
     genuinely have no idea what this thing is, but the ears are based on the [bat-eared fox](https://animals.sandiegozoo.org/animals/bat-eared-fox). different interpretations welcome; you may draw them as traffic cones if you wish
 - nm: “wolf-skull”
+  id: wolfskull
   af: 2143321.wolf-skull
-  prev: wolfskull
   img: |-
     - [grayscale faux-cover](../assets/img/roster/wolfskull-cover.png)
     - [sketchdump](../assets/img/roster/wolfskull-dump.png)

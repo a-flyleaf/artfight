@@ -2,7 +2,8 @@
 #  time: YYYY-MM-DD HH:MM:SS (timezone changed at some point between 2022+2026. dwbi; this is just to keep things in chronological order on the compilation page SO if it's all the same within a year then all's good)
 #  artist: NightAuctor if attack, else ???
 #  img: "0X"
-#  file: OPTIONAL if not png
+#  file: OPTIONAL if not png (big file)
+#  tn: OPTIONAL if not png (thumbnail)
 #  for: NightAuctor if defense, else ???
 #  ff: OPTIONAL Team (if same)
 #  pts: XX.XX
@@ -684,6 +685,7 @@
   artist: Horze
   img: "03"
   file: jpg
+  tn: jpg
   for: NightAuctor
   ff: Fossils
   pts: 29

@@ -12,6 +12,7 @@
 #  cr: cara
 #  site-url: "https://artfight.net"
 #  site-nm: custom site
+#  nolinks: if none!
 #  dt: YYYY (of when I checked the info for this site!! NOT the attack)
 
 - un: NightAuctor
@@ -323,4 +324,29 @@
 
 - un: crowwbar
   bs: noelle-next-door.bsky.social
+  dt: 2026
+
+- un: Kondraki
+  nolinks: y
+  dt: 2026
+
+- un: ChrisTwi
+  tb: christwi
+  tw: twilunaa
+  ig: menkissingandinlove
+  dt: 2026
+
+- un: -Geist-
+  th: jocoserious
+  dt: 2026
+
+- un: PeculiurFightFlight
+  da: PeculiurPerennial
+  tb: PeculiurPerennial
+  th: PeculiurPerennial
+  site-url: "http://skibery.wixsite.com/peculiurdreams"
+  dt: 2026
+
+- un: Gaypril
+  nolinks: y
   dt: 2026

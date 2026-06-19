@@ -87,7 +87,7 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 .cptn{font-size:.85em;} .cptn a{text-decoration-color:#808080;} .cptn a:hover,.cptn a:focus,.cptn a:active{text-decoration-color:#3e7686;}
 
 /*teams
-"def" = defense (me), "ff" = friendly fire. ...seems backwards but W/E that's how I did it
+"def" = defending (not me), "ff" = friendly fire (me)
 2021: steampunk #bb6726 | cyberpunk #bf54e2
 2022: bloom  #98a54e    | wither #a86b8b
 2023: vampires #e6466c  | werewolves #498cad
@@ -96,5 +96,5 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 .y2021,.y2021.ff{border-color:#bf54e2 !important; color:#bf54e2 !important;}
 .y2022.def{border-color:#a86b8b !important; color:#a86b8b !important;}
 .y2022,.y2022.ff{border-color:#98a54e !important; color:#98a54e !important;}
-.y2023.def{border-color:#498cad !important; color:#498cad !important;}
-.y2023,.y2023.ff{border-color:#e6466c !important; color:#e6466c !important;}
+.y2023.def{border-color:#e6466c !important; color:#e6466c !important;}
+.y2023,.y2023.ff{border-color:#498cad !important; color:#498cad !important;}

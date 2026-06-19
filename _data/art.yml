@@ -1,10 +1,11 @@
 #- link: everything after `attack/`
-#  time: YYYY-MM-DD HH:MM:SS (timezone seems off? idk dwbi)
+#  time: YYYY-MM-DD HH:MM:SS (timezone changed at some point between 2022+2026. dwbi; this is just to keep things in chronological order on the compilation page SO if it's all the same within a year then all's good)
 #  artist: NightAuctor if attack, else ???
 #  img: "0X"
 #  for: NightAuctor if defense, else ???
 #  ff: Team (if same)
 #  pts: XX.XX
+#  char: zero,sawface,toolbelt,entity,wolfskull
 #  cptn: "OPTIONAL caption"
 
 
@@ -582,3 +583,56 @@
   img: "01"
   for: NightAuctor
   pts: 46.25
+  char: wolfskull
+- link: 4368175.real-kikibouba-hours
+  time: 2023-07-04 02:10:09
+  artist: NightAuctor
+  img: "01"
+  for: crowwbar
+  ff: Werewolves
+  pts: 75.25
+- link: 4427153.unwraps-hte-crunch
+  time: 2023-07-04 17:24:52
+  artist: NightAuctor
+  img: "02"
+  for: Kondraki
+  ff: Werewolves
+  pts: 9
+- link: 4447361.something-in-the-sewers
+  time: 2023-07-04 20:58:45
+  artist: NightAuctor
+  img: "03"
+  for: PeculiurFightFlight
+  ff: Werewolves
+  pts: 4.25
+- link: 4546166.zero
+  time: 2023-07-05 17:29:05
+  artist: ChrisTwi
+  img: "02"
+  for: NightAuctor
+  ff: Werewolves
+  pts: 14.25
+  char: zero
+- link: 4664665.ahahahahah
+  time: 2023-07-07 04:53:27
+  artist: -Geist-
+  img: "03"
+  for: NightAuctor
+  pts: 28
+  char: sawface
+- link: 5699283.one
+  time: 2023-07-31 00:44:14
+  artist: NightAuctor
+  img: "04"
+  for: ChrisTwi
+  ff: Werewolves
+  pts: 9
+- link: 5704167.some-guy
+  time: 2023-07-31 03:03:36
+  artist: NightAuctor
+  img: "05"
+  for: Gaypril
+  ff: Werewolves
+  pts: 9
+
+# 2025

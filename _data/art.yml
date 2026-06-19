@@ -1,3 +1,14 @@
+#- link: everything after `attack/`
+#  time: YYYY-MM-DD HH:MM:SS (timezone seems off? idk dwbi)
+#  artist: NightAuctor, else ???
+#  img: "0X"
+#  for: 
+#  ff: sameteam
+#  pts: XX.XX
+#  cptn: "OPTIONAL caption"
+
+
+# 2021
 - link: 1750415.those-three-guys
   time: 2021-07-01 06:01:25
   artist: NightAuctor
@@ -273,6 +284,8 @@
   ff: Cyberpunk
   pts: 7.25
   char: zero
+
+# 2022
 - link: 2705772.those-four-fellas
   time: 2022-07-01 17:50:01
   artist: NightAuctor
@@ -561,3 +574,13 @@
   ff: Bloom
   pts: 15.5
   char: wolfskull
+
+## 2023
+- link: 4343196.alright-buddy-youre-not-that-scary
+  time: 2023-07-03 22:05:15
+  artist: crowwbar
+  img: "0X"
+  for: 
+  ff: sameteam
+  pts: XX.XX
+  cptn: "OPTIONAL caption"

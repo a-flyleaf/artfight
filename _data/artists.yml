@@ -1,18 +1,18 @@
-- un: template
-  da: deviantart
-  fa: furaffinity
-  ws: weasyl
-  tb: tumblr
-  tw: twitter
-  ig: instagram
-  th: toyhouse
-  sh: sheezy
-  bs: bluesky
-  uv: unvale
-  cr: cara
-  site-url: "https://artfight.net"
-  site-nm: custom site
-
+#- un: template
+#  da: deviantart
+#  fa: furaffinity
+#  ws: weasyl
+#  tb: tumblr
+#  tw: twitter
+#  ig: instagram
+#  th: toyhouse
+#  sh: sheezy
+#  bs: bluesky
+#  uv: unvale
+#  cr: cara
+#  site-url: "https://artfight.net"
+#  site-nm: custom site
+#  dt: YYYY (of when I checked the info for this site!! NOT the attack)
 
 - un: NightAuctor
   da: NightAuctor

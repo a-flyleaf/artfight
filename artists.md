@@ -18,7 +18,7 @@ Links were recorded in the noted year, and copied as they appear onsite (includi
 
 ----
 
-{%assign rtst = site.data.artists|sort_natural:"un"%}{%for artist in rtst%}{%unless artist.un=="template"%}<article id="{{artist.un}}"><div class="nm"><h2><a href="https://artfight.net/~{{artist.un}}">{{artist.un}}</a></h2><small>({{artist.dt}})</small></div>
+{%assign rtst = site.data.artists|sort_natural:"un"%}{%for artist in rtst%}<article id="{{artist.un}}"><div class="nm"><h2><a href="https://artfight.net/~{{artist.un}}">{{artist.un}}</a></h2><small>({{artist.dt}})</small></div>
 <div class="box">{%if artist.nolinks%}<p>[no links given]</p>{%else%}<ul>
 	{%if artist.da%}<li>deviantArt: <a href="https://{{artist.da}}.deviantart.com/">{{artist.da}}</a></li>{%endif%}
 	{%if artist.fa%}<li>FurAffinity: <a href="https://www.furaffinity.net/user/{{artist.fa}}">{{artist.fa}}</a></li>{%endif%}
@@ -32,4 +32,4 @@ Links were recorded in the noted year, and copied as they appear onsite (includi
 	{%if artist.uv%}<li>Unvale: <a href="https://unvale.io/{{artist.uv}}">{{artist.uv}}</a></li>{%endif%}
 	{%if artist.cr%}<li>Cara: <a href="https://cara.app/{{artist.cr}}">{{artist.cr}}</a></li>{%endif%}
 	{%if artist.site-url%}<li>Custom Site: {%if artist.un != "NightAuctor"%}“{%endif%}<a href="{{artist.site-url}}">{{artist.site-nm}}</a>{%if artist.un != "NightAuctor"%}”{%endif%}</li>{%endif%}
-</ul>{%endif%}</div></article>{%endunless%}{%endfor%}
+</ul>{%endif%}</div></article>{%endfor%}

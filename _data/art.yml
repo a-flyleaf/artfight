@@ -1,9 +1,9 @@
 #- link: everything after `attack/`
 #  time: YYYY-MM-DD HH:MM:SS (timezone seems off? idk dwbi)
-#  artist: NightAuctor, else ???
+#  artist: NightAuctor if attack, else ???
 #  img: "0X"
-#  for: 
-#  ff: sameteam
+#  for: NightAuctor if defense, else ???
+#  ff: Team (if same)
 #  pts: XX.XX
 #  cptn: "OPTIONAL caption"
 
@@ -579,8 +579,6 @@
 - link: 4343196.alright-buddy-youre-not-that-scary
   time: 2023-07-03 22:05:15
   artist: crowwbar
-  img: "0X"
-  for: 
-  ff: sameteam
-  pts: XX.XX
-  cptn: "OPTIONAL caption"
+  img: "01"
+  for: NightAuctor
+  pts: 46.25

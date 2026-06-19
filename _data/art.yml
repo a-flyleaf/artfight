@@ -2,10 +2,11 @@
 #  time: YYYY-MM-DD HH:MM:SS (timezone changed at some point between 2022+2026. dwbi; this is just to keep things in chronological order on the compilation page SO if it's all the same within a year then all's good)
 #  artist: NightAuctor if attack, else ???
 #  img: "0X"
+#  file: OPTIONAL if not png
 #  for: NightAuctor if defense, else ???
-#  ff: Team (if same)
+#  ff: OPTIONAL Team (if same)
 #  pts: XX.XX
-#  char: zero,sawface,toolbelt,entity,wolfskull
+#  char: zero,sawface,toolbelt,entity,wolfskull,flightrising
 #  cptn: "OPTIONAL caption"
 
 
@@ -636,3 +637,68 @@
   pts: 9
 
 # 2025
+- link: 8685209.maybe-a-little-bit-of-evil
+  time: 2025-07-01 12:18:07
+  artist: NightAuctor
+  img: "01"
+  for: Strangelet
+  ff: Fossils
+  pts: 24.5
+- link: 9209062.brightens-yuor-bhallspawn
+  time: 2025-07-02 18:19:02
+  artist: NightAuctor
+  img: "02"
+  for: BottleOfTeeth
+  ff: Fossils
+  pts: 52.5
+  cptn: "OPTIONAL caption"
+- link: 9285276.get-a-load-of-that-dog
+  time: 2025-07-02 23:16:51
+  artist: NightAuctor
+  img: "03"
+  for: pantheraliam
+  ff: Fossils
+  pts: 52
+- link: 10166448.neighs-alien-ly
+  time: 2025-07-06 21:54:17
+  artist: NightAuctor
+  img: "04"
+  for: Horze
+  ff: Fossils
+  pts: 57.75
+- link: 10338817.flightrising-pompomoverture-attack
+  time: 2025-07-07 20:53:15
+  artist: Axcidel
+  img: "01"
+  for: NightAuctor
+  pts: 6
+  char: flightrising
+  cptn: "ft. <a href='https://www1.flightrising.com/dragon/98070985'>PompomOverture</a>"
+- link: 10828637.zero
+  time: 2025-07-11 07:09:57
+  artist: AuraEil
+  img: "02"
+  for: NightAuctor
+  pts: 16
+  char: zero
+- link: 11995087.beautiful-beast
+  time: 2025-07-23 10:34:12
+  artist: Horze
+  img: "03"
+  file: jpg
+  for: NightAuctor
+  ff: Fossils
+  pts: 29
+  char: zero
+- link: 12777469.they-chattin
+  time: 2025-07-31 22:35:28
+  artist: NightAuctor
+  img: "05"
+  for: Axcidel
+  pts: 45
+- link: 12874733.ok-hand
+  time: 2025-08-01 10:32:23
+  artist: NightAuctor
+  img: "06"
+  for: AuraEil
+  pts: 40

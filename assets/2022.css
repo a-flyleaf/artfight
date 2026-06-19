@@ -91,6 +91,7 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 2021: steampunk #bb6726 | cyberpunk #bf54e2
 2022: bloom  #98a54e    | wither #a86b8b
 2023: vampires #e6466c  | werewolves #498cad
+2025: fossils #ba8c25   | crystals #d35e88
 */
 .y2021.def{border-color:#bb6726 !important; color:#bb6726 !important;}
 .y2021,.y2021.ff{border-color:#bf54e2 !important; color:#bf54e2 !important;}
@@ -98,3 +99,5 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 .y2022,.y2022.ff{border-color:#98a54e !important; color:#98a54e !important;}
 .y2023.def{border-color:#e6466c !important; color:#e6466c !important;}
 .y2023,.y2023.ff{border-color:#498cad !important; color:#498cad !important;}
+.y2025.def{border-color:#d35e88 !important; color:#d35e88 !important;}
+.y2025,.y2025.ff{border-color:#ba8c25 !important; color:#ba8c25 !important;}

@@ -23,6 +23,7 @@ p{margin:.5em 0; padding:0 1rem;}
 
 blockquote{margin:.5em auto; border-left:.25em #e0e0e0 solid; max-width:32.5em;}
 .box{border:1px solid #e0e0e0; border-radius:.15em; background:#efefef; max-width:40rem; margin:1em auto; padding:.5em;}
+.box a{text-decoration:underline 2px solid #c2c2c2;}
 hr{background:#e0e0e0; height:1.5px; border:0; margin:1em auto;}
 main ul{margin:0 auto; padding:0 1em 0 2em;}
 details{margin:.5em auto; padding:0 1rem;} summary{font-weight:bold; cursor:pointer; border-bottom:2px dashed rgba(0,0,0,0);} summary:hover,summary:active{border-color:#c2c2c2;}

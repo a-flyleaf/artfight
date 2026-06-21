@@ -2,6 +2,9 @@
 layout: 2022
 title: character roster
 css: "
+	h1+p{text-align:center;}
+	
+	article{margin:3em 0;}
 	h2{text-align:left; text-align:center; padding:0 0 .25em; font-size:2em;}
 	blockquote p:last-of-type{margin-bottom:0;}
 	.fancybox__caption a{color:#fff !important;}
@@ -32,51 +35,7 @@ Names link to ArtFight character pages.
 	<details><summary>info</summary><blockquote>{{ch.desc|markdownify}}</blockquote></details>
 	<details><summary>additional note(s)</summary><blockquote>{{ch.perm|markdownify}}</blockquote></details>
 	
-	<div class="gallery four">{%for art in chrono%}////////////{%endfor%}</div>
+	<div class="gallery four">{%for art in chrono%}{%if art.char contains ch.id%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="{{ch.id}}" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'>{{art.artist}}</a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}">
+		<img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt="">
+	</a></figure>{%endif%}{%endfor%}</div>
 </article>{%endfor%}
-
-----
-
-<article id="zero"><!--{%for chara in site.data.roster%}{%if chara.nm=="Zero"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.id}}.png" alt=""></p>
-	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
-	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
-	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
-	<details><summary>additional note(s)</summary><blockquote>{{chara.perm|markdownify}}</blockquote></details>{%endif%}{%endfor%}-->
-<div class="gallery four">{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}{%if art.char contains 'zero'%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="zero" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'><b>{{art.artist}}</b></a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}"><img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt=""/></a></figure>{%endif%}{%endfor%}</div></article>
-
-----
-
-<article id="sawface">{%for chara in site.data.roster%}{%if chara.nm contains "sawface"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.id}}.png" alt=""></p>
-	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
-	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
-	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
-	<details><summary>permissions</summary><blockquote>{{chara.perm|markdownify}}</blockquote></details>{%endif%}{%endfor%}
-<div class="gallery four">{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}{%if art.for=='NightAuctor'%}<!--prevents the Vaukran cameo from causing problems-->{%if art.char contains 'sawface'%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="sawface" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'><b>{{art.artist}}</b></a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}"><img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt=""/></a></figure>{%endif%}{%endif%}{%endfor%}</div>
-<p id="note">Not shown: makes a small cameo in <a href="{%include url.html%}/for-you#2022-5">an attack I drew</a>!</p></article>
-
-----
-
-<article id="toolbelt">{%for chara in site.data.roster%}{%if chara.nm contains "toolbelt"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.id}}.png" alt=""></p>
-	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
-	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
-	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
-	<details><summary>additional note(s)</summary><blockquote>{{chara.perm|markdownify}}</blockquote></details>{%endif%}{%endfor%}
-<div class="gallery four">{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}{%if art.char contains "toolbelt"%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="toolbelt" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'><b>{{art.artist}}</b></a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}"><img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt=""/></a></figure>{%endif%}{%endfor%}</div></article>
-
-----
-
-<article id="entity">{%for chara in site.data.roster%}{%if chara.nm contains "entity"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.id}}.png" alt=""></p>
-	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
-	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
-	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
-	<details><summary>additional note(s)</summary><blockquote>{{chara.perm|markdownify}}</blockquote></details>{%endif%}{%endfor%}
-<div class="gallery four">{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}{%if art.char contains "entity"%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="entity" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'><b>{{art.artist}}</b></a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}"><img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt=""/></a></figure>{%endif%}{%endfor%}</div></article>
-
-----
-
-<article id="wolfskull">{%for chara in site.data.roster%}{%if chara.nm contains "wolf"%}<p class="float"><img src="{%include url.html%}/assets/img/roster/{{chara.id}}.png" alt=""></p>
-	<h2><a href="https://artfight.net/character/{{chara.af}}">{{chara.nm}}</a></h2>
-	<div class="refs"><b>image references:</b> {{chara.img|markdownify}}</div>
-	<details><summary>info</summary><blockquote>{{chara.desc|markdownify}}</blockquote></details>
-	<details><summary>additional note(s)</summary><blockquote>{{chara.perm|markdownify}}</blockquote></details>{%endif%}{%endfor%}
-<div class="gallery four">{%assign chrono = site.data.art|sort:"time"%}{%for art in chrono%}{%if art.char contains "wolf"%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="wolfskull" data-caption="<p><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'><b>{{art.artist}}</b></a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}"><img src="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}x.{%if art.tn%}{{art.tn}}{%else%}png{%endif%}" alt=""/></a></figure>{%endif%}{%endfor%}</div></article>

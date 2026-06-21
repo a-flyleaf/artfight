@@ -27,4 +27,4 @@ People really like Zero.
 
 ----
 
-Character info, references, and galleries are organized [on a subpage here]({%include url.html%}/etc/roster).
+Character info, references, and galleries are organized [over here]({%include url.html%}/roster).

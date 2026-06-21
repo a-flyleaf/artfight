@@ -21,6 +21,7 @@
      transcription of the 2021 (last) sketchdump’s end note: “as you can see I pay very little attention to detail and hex color in this design. the most important aspects are the **shape** and **general palette**; variations welcome (+encouraged)!”
      
      the wings and feather patterns especially keep changing every other drawing <span style="display:inline-block;">¯\\\_( ᐛ )_/¯</span>
+
 - nm: “sawface”
   id: sawface
   af: 1416800.sawface
@@ -35,9 +36,10 @@
     A weird monster with an inconsistent number of eyes, limbs, and teeth. As of 2022 the mouths can move like a can opener [winged corkscrew](https://www.youtube.com/watch?v=RsBsyZUiSYQ). Very pointy, very long; *go nuts* <span style="display:inline-block;">:V.V:</span>
   perm: |-
     Sometimes appears with a human “host.” What’s their deal? Your guess is good as mine!
+
 - nm: toolbelt kid
   id: toolbelt
-  af: 1415042.toolbelt-kid
+#  af: 1415042.toolbelt-kid
   prev: toolbelt
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
@@ -45,18 +47,20 @@
     one of two [cringetober](https://www.deviantart.com/nightauctor/gallery?q=%23cringetober) characters, alongside [the other one](#entity). as noted on [my profile](profile), feel free to take extensive artistic liberty—just have fun with ’em~
   perm: |-
     literally made up the palette from the waist down on the spot, so go ham on that
+
 - nm: the entity
   id: entity
-  af: 1416706.the-entity
+#  af: 1416706.the-entity
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
   desc: |-
     one of two [cringetober](https://www.deviantart.com/nightauctor/gallery?q=%23cringetober) characters, alongside [toolbelt kid](#toolbelt). as noted on [my profile](profile), feel free to take extensive artistic liberty—just have fun with ’em~
   perm: |-
     genuinely have no idea what this thing is, but the ears are based on the [bat-eared fox](https://animals.sandiegozoo.org/animals/bat-eared-fox). different interpretations welcome; you may draw them as traffic cones if you wish
+
 - nm: “wolf-skull”
   id: wolfskull
-  af: 2143321.wolf-skull
+#  af: 2143321.wolf-skull
   img: |-
     - [grayscale faux-cover](../assets/img/roster/wolfskull-cover.png)
     - [sketchdump](../assets/img/roster/wolfskull-dump.png)

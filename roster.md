@@ -2,7 +2,7 @@
 layout: 2022
 title: character roster
 css: "
-	h1+p{text-align:center;}
+	main>p{text-align:center;}
 	
 	article{margin:3em 0;}
 	h2{text-align:left; text-align:center; padding:0 0 .25em; font-size:2em;}
@@ -29,8 +29,10 @@ css: "
 ---
 Names link to ArtFight character pages.
 
+**Zero**, "**sawface**", and the **Flight Rising catch-all** are long-term mainstays. The others are **cycled out** after a round, but art of them is still welcome! I'm just less attached to them &
+
 {%assign chrono=site.data.art|sort:"time"%}{%for ch in site.data.roster%}<article id="{{ch.id}}"><p class="float"><img src="{%include url.html%}/assets/img/roster/{{ch.id}}.png" alt=""></p>
-	<h2><a href="https://artfight.net/character/{{ch.af}}">{{ch.nm}}</a></h2>
+	<h2><a href="https://artfight.net/character/{%if ch.af%}{{ch.af}}{%else%}1415042.previous-characters{%endif%}">{{ch.nm}}</a></h2>
 	<div class="refs"><b>image references</b>: {{ch.img|markdownify}}</div>
 	<details><summary>info</summary><blockquote>{{ch.desc|markdownify}}</blockquote></details>
 	<details><summary>additional note(s)</summary><blockquote>{{ch.perm|markdownify}}</blockquote></details>

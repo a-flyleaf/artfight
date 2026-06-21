@@ -33,7 +33,7 @@ header ul,footer ul{list-style-type:none;}
 header,footer{text-align:center;}
 header{font-size:1.15em;}
 header a{text-decoration:none; padding:.15em 0; display:block;} header a:hover,header a:focus,header a:active{background:#797979; color:#fff;}
-#home{text-transform:uppercase; letter-spacing:0.025em; word-spacing:0.035em; font-weight:bold; font-size:1em;}
+#home{text-transform:uppercase; letter-spacing:0.025em; word-spacing:0.035em; font-weight:bold; font-size:1em; line-height:1.25;}
 .artlnk{font-weight:bold;}
 #yrs,#yrs a,#yrs li{display:inline;} #yrs a{padding:0 .5em;}
 

@@ -32,10 +32,10 @@ Names link to ArtFight character pages.
 
 **Zero**, "**sawface**", and the **Flight Rising catch-all** are long-term mainstays. The others are **cycled out** after a round, but art of them is still welcome! I'm just less attached to them &
 
-{%assign chrono=site.data.art|sort:"time"%}{%for ch in site.data.roster%}<article id="{{ch.id}}"{%if ch.fix%} class="fix"{%endif%}><p class="float"><img src="{%include url.html%}/assets/img/roster/{{ch.id}}.png" alt=""></p>
+{%assign chrono=site.data.art|sort:"time"%}{%capture incurl%}{%include url.html%}{%endcapture%}{%for ch in site.data.roster%}<article id="{{ch.id}}"{%if ch.fix%} class="fix"{%endif%}><p class="float"><img src="{%include url.html%}/assets/img/roster/{{ch.id}}.png" alt=""></p>
 	<h2><a href="https://artfight.net/character/{%if ch.af%}{{ch.af}}{%else%}1415042.previous-characters{%endif%}">{{ch.nm}}</a></h2>
-	<div class="refs"><b>references</b>: {{ch.img|markdownify}}</div>
-	<details><summary>info</summary><blockquote>{{ch.desc|markdownify}}</blockquote></details>
+	<div class="refs"><b>references</b>: {{ch.img|markdownify|replace:'INC_URL',incurl}}</div>
+	<details><summary>info</summary><blockquote>{{ch.desc|markdownify|replace:'INC_URL',incurl}}</blockquote></details>
 	<details><summary>additional note(s)</summary><blockquote>{{ch.perm|markdownify}}</blockquote></details>
 	
 	<div class="gallery four">{%for art in chrono%}{%if art.char contains ch.id%}<figure><a href="{%include url.html%}/assets/img/def/{{art.time|date:'%Y'}}/{{art.img}}.{%if art.file%}{{art.file}}{%else%}png{%endif%}" class="y{{art.time|date:'%Y'}} def{%if art.ff%} ff{%endif%}" data-fancybox="{{ch.id}}" data-caption="<p class='tofrom'><a href='https://artfight.net/attack/{{art.link}}' target='_blank'>from</a> <a href='{%include url.html%}/artists#{{art.artist}}' target='_blank'>{{art.artist}}</a></p>{%if art.cptn%}<p class='cptn'>{{art.cptn}}</p>{%endif%}">

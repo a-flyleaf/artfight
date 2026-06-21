@@ -1,3 +1,5 @@
+# "fix" is for gallery spacing if the description is NOT longer than the character thumbnail
+
 - nm: Zero
   id: zero
   af: 1439410.zero
@@ -37,10 +39,24 @@
   perm: |-
     Sometimes appears with a human “host.” What’s their deal? Your guess is good as mine!
 
+- nm: Flight Rising catch-all
+  id: flightrising
+  af: 1416706.flight-rising-catch-all
+  fix: y
+  img: |-
+    - [All Of Them](https://a-flyleaf.github.io/dragonotes/dragons/)
+    - [Zero's dragonsona](../assets/img/roster/fr-zero.png)
+  desc: |-
+    Dragon neopets is my passion. Art of **any of [my silly little lizards](https://a-flyleaf.github.io/dragonotes/dragons/)** would make my day :>
+  perm: |-
+    If you’re not familiar with Flight Rising, no worries! Treat these guys like generic dragon characters. **I am not fussed about the details**; *please* feel free to simplify.
+    
+    Other than Zero, ignore the “fandragons [and] non-hibernating lizards” links. Thank you!
+
 - nm: toolbelt kid
   id: toolbelt
 #  af: 1415042.toolbelt-kid
-  prev: toolbelt
+  fix: y
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
   desc: |-
@@ -51,6 +67,7 @@
 - nm: the entity
   id: entity
 #  af: 1416706.the-entity
+  fix: y
   img: |-
     - [notes](https://a-flyleaf.github.io/toyshelf/art/artfight-assortment)
   desc: |-
@@ -61,6 +78,7 @@
 - nm: “wolf-skull”
   id: wolfskull
 #  af: 2143321.wolf-skull
+  fix: y
   img: |-
     - [grayscale faux-cover](../assets/img/roster/wolfskull-cover.png)
     - [sketchdump](../assets/img/roster/wolfskull-dump.png)

@@ -8,7 +8,7 @@ img{max-width:100%; height:auto;}
 header,nav,main,figure,section,article,footer{display:block;}
 
 ::selection{background:rgba(128,128,128,.25);}
-a{color:inherit; text-decoration:underline 1.2px dashed #c2c2c2;} a:focus,a:hover,a:active{color: #5acae9; text-decoration-color:#abe4f3;}
+a{color:inherit; text-decoration:underline 1.2px dashed #6b6b6b;} a:focus,a:hover,a:active{color: #5acae9; text-decoration-color:#abe4f3;}
 header,footer{color:#c2c2c2;}
 
 header,footer,h1,h2{padding:1rem;}

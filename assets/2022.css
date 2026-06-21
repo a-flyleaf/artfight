@@ -46,7 +46,7 @@ footer li{margin:.15em 0;} footer p{margin:1em 0 0;}
 	p{margin:.5em auto;}
 	
 	header,footer{overflow:auto; margin:0 auto;}
-	header{max-width:30rem;}
+	header{max-width:50rem;}
 	#home,header nav,footer ul,footer p{float:left;}
 	#home{width:35%; margin-left:1.75em; padding:.25em .5em;}
 	#home{font-size:1.25em;} header nav{text-align:left;} header li{padding-left:.5em;} #yrs li{padding:0;}
